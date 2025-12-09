@@ -45,6 +45,43 @@ df_marine
 ```
 <img width="1159" height="636" alt="image" src="https://github.com/user-attachments/assets/ceefe219-1588-4b36-a113-f047b31fec82" />
 
+### Consolidating all tables (Python+DuckDB)
+
+```python
+import duckdb
+import pandas as pd
+
+# 1. Define the base URL for the raw files
+base_url = "https://raw.githubusercontent.com/do-me/Copernicus-Services-Products-Metadata/main/outputs/parquet"
+
+# 2. Define the specific list of files you need
+files = [
+    "atmosphere.parquet",
+    "climate.parquet",
+    "emergency.parquet",
+    #"emergency_activities_since_2012.parquet",
+    "land.parquet",
+    "marine.parquet"
+]
+
+# 3. Create a list of full URLs
+file_urls = [f"{base_url}/{f}" for f in files]
+
+# 4. Pass the LIST of URLs to read_parquet
+# DuckDB handles the list automatically, and union_by_name normalizes the columns
+query = """
+    SELECT *
+    FROM read_parquet(?, union_by_name=True)
+"""
+
+# Execute using parameters to inject the list safely
+df = duckdb.execute(query, [file_urls]).df()
+
+# Display
+print(f"Loaded {len(df)} rows.")
+df = df.astype(object).fillna("")
+df # 781 rows
+```
 
 ## Local Development
 
