@@ -21,6 +21,8 @@ os.makedirs("outputs/", exist_ok=True)
 os.makedirs("outputs/parquet/", exist_ok=True)
 os.makedirs("outputs/excel/", exist_ok=True)
 os.makedirs("outputs/csv/", exist_ok=True)
+os.makedirs("outputs/tsv/", exist_ok=True)
+os.makedirs("outputs/json/", exist_ok=True)
 
 # Helper function to save files in all formats
 def save_dataframe(df, filename_base):
@@ -37,8 +39,19 @@ def save_dataframe(df, filename_base):
 
     # CSV
     df.to_csv(f"outputs/csv/{filename_base}.csv", index=False)
+
+    # TSV
+    df.to_csv(f"outputs/tsv/{filename_base}.tsv", index=False, sep="\t")
     
-    print(f"Saved outputs for {filename_base} (Parquet, Excel, CSV)")
+    # JSON
+    try:
+        data = json.loads(df.to_json(orient="records"))
+        with open(f"outputs/json/{filename_base}.json", "w") as f:
+            json.dump(data, f, indent=4)
+    except Exception as e:
+        print(f"Warning: Could not save {filename_base} to JSON due to: {e}")
+    
+    print(f"Saved outputs for {filename_base} (Parquet, Excel, CSV, TSV, JSON)")
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -136,7 +149,7 @@ b) Past Activations (>900)
 
 # a) Products
 try:
-    url = "https://ewds.climate.copernicus.eu/_next/data/2-bipz9DZL-VVNkdRqXty/en/datasets.json"
+    url = "https://ewds.climate.copernicus.eu/_next/data/3duc_gWsa10lMzXJP5_xi/en/datasets.json"
     response = requests.get(url)
 
     df = pd.DataFrame(response.json()["pageProps"]["datasets"])
@@ -168,7 +181,7 @@ https://ads.atmosphere.copernicus.eu/datasets
 """
 
 try:
-    url = "https://ads.atmosphere.copernicus.eu/_next/data/2-bipz9DZL-VVNkdRqXty/en/datasets.json"
+    url = "https://ads.atmosphere.copernicus.eu/_next/data/3duc_gWsa10lMzXJP5_xi/en/datasets.json"
     response = requests.get(url)
 
     df = pd.DataFrame(response.json()["pageProps"]["datasets"])

@@ -29,6 +29,8 @@ All data is overwritten weekly to reflect the current state of the catalogs. Fil
 *   **Parquet (`outputs/parquet/`):** Best for programmatic access (Python/Pandas). Preserves data types.
 *   **Excel (`outputs/excel/`):** Best for human review and manual filtering.
 *   **CSV (`outputs/csv/`):** Universal compatibility.
+*   **TSV (`outputs/tsv/`):** Tab-separated values for better compatibility with certain tools.
+*   **JSON (`outputs/json/`):** Standard JSON format (records-oriented) for web integrations.
 
 ### Quick Usage (Python)
 
