@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#   "pandas","requests","pyarrow","openpyxl"
+#   "pandas","requests","pyarrow","openpyxl","beautifulsoup4"
 # ]
 # ///
 
@@ -15,6 +15,7 @@ import os
 import requests
 import json
 import pandas as pd
+from bs4 import BeautifulSoup
 
 # Create output directories
 os.makedirs("outputs/", exist_ok=True)
@@ -23,6 +24,25 @@ os.makedirs("outputs/excel/", exist_ok=True)
 os.makedirs("outputs/csv/", exist_ok=True)
 os.makedirs("outputs/tsv/", exist_ok=True)
 os.makedirs("outputs/json/", exist_ok=True)
+
+def get_next_js_build_id(url):
+    """Extracts the Next.js buildId from a given page."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # Next.js stores build data in a script tag with id "__NEXT_DATA__"
+    script_tag = soup.find('script', id='__NEXT_DATA__')
+    
+    if script_tag:
+        data = json.loads(script_tag.string)
+        return data.get('buildId')
+    else:
+        raise ValueError("Could not find __NEXT_DATA__ script tag.")
 
 # Helper function to save files in all formats
 def save_dataframe(df, filename_base):
@@ -149,8 +169,13 @@ b) Past Activations (>900)
 
 # a) Products
 try:
-    url = "https://ewds.climate.copernicus.eu/_next/data/3duc_gWsa10lMzXJP5_xi/en/datasets.json"
+    # Get the current build ID dynamically
+    base_url = "https://ewds.climate.copernicus.eu/datasets"
+    build_id = get_next_js_build_id(base_url)
+    url = f"https://ewds.climate.copernicus.eu/_next/data/{build_id}/en/datasets.json"
+    
     response = requests.get(url)
+    response.raise_for_status()
 
     df = pd.DataFrame(response.json()["pageProps"]["datasets"])
     # Convert complex columns to string to avoid Parquet/Excel errors
@@ -181,8 +206,13 @@ https://ads.atmosphere.copernicus.eu/datasets
 """
 
 try:
-    url = "https://ads.atmosphere.copernicus.eu/_next/data/3duc_gWsa10lMzXJP5_xi/en/datasets.json"
+    # Get the current build ID dynamically
+    base_url = "https://ads.atmosphere.copernicus.eu/datasets"
+    build_id = get_next_js_build_id(base_url)
+    url = f"https://ads.atmosphere.copernicus.eu/_next/data/{build_id}/en/datasets.json"
+    
     response = requests.get(url)
+    response.raise_for_status()
 
     df = pd.DataFrame(response.json()["pageProps"]["datasets"])
     if "summaries" in df.columns:
