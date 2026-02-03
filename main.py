@@ -46,32 +46,34 @@ def get_next_js_build_id(url):
 
 # Helper function to save files in all formats
 def save_dataframe(df, filename_base):
+
+    full_filename = f"copernicus_{filename_base}"
     # Parquet
-    df.to_parquet(f"outputs/parquet/{filename_base}.parquet")
+    df.to_parquet(f"outputs/parquet/{full_filename}.parquet")
     
     # Excel (needs openpyxl installed, added to dependencies above)
     # Using engine='openpyxl' specifically helps with certain character encodings
     # We also use illegal_char_replacement just in case metadata contains control characters
     try:
-        df.to_excel(f"outputs/excel/{filename_base}.xlsx", index=False)
+        df.to_excel(f"outputs/excel/{full_filename}.xlsx", index=False)
     except Exception as e:
-        print(f"Warning: Could not save {filename_base} to Excel due to: {e}")
+        print(f"Warning: Could not save {full_filename} to Excel due to: {e}")
 
     # CSV
-    df.to_csv(f"outputs/csv/{filename_base}.csv", index=False)
+    df.to_csv(f"outputs/csv/{full_filename}.csv", index=False)
 
     # TSV
-    df.to_csv(f"outputs/tsv/{filename_base}.tsv", index=False, sep="\t")
+    df.to_csv(f"outputs/tsv/{full_filename}.tsv", index=False, sep="\t")
     
     # JSON
     try:
         data = json.loads(df.to_json(orient="records"))
-        with open(f"outputs/json/{filename_base}.json", "w") as f:
+        with open(f"outputs/json/{full_filename}.json", "w") as f:
             json.dump(data, f, indent=4)
     except Exception as e:
-        print(f"Warning: Could not save {filename_base} to JSON due to: {e}")
+        print(f"Warning: Could not save {full_filename} to JSON due to: {e}")
     
-    print(f"Saved outputs for {filename_base} (Parquet, Excel, CSV, TSV, JSON)")
+    print(f"Saved outputs for {full_filename} (Parquet, Excel, CSV, TSV, JSON)")
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
