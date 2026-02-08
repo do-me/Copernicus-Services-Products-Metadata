@@ -91,6 +91,34 @@
         "past_items_search_text": ""
     },
     {
+        "code": "EMSN227",
+        "countries": [
+            {
+                "short_name": "Mozambique"
+            },
+            {
+                "short_name": "Zambia"
+            },
+            {
+                "short_name": "Zimbabwe"
+            }
+        ],
+        "category": {
+            "slug": "other",
+            "name": "Other"
+        },
+        "name": "Multi hazard mapping in ZIMOZA Transfrontier Conservation Area in Zimbabwe, Mozambique, Zambia",
+        "centroid": "POINT (-30.9317 -16.0072)",
+        "activationTime": "2025-11-21T13:51:49",
+        "lastUpdate": "2026-02-06T12:24:31.454239",
+        "drmPhase": "preparedness",
+        "closed": false,
+        "n_aois": 1,
+        "n_products": 2,
+        "search_snippet": "The current activation aims to develop a multi-hazard assessment for the ZIMOZA Transfrontier Conservation Area, focusing on flood, fire, drought, and soil-erosion scenarios. Building upon these hazard layers, the activation will also generate an exposure assessment, quantifying the populations,...",
+        "past_items_search_text": ""
+    },
+    {
         "code": "EMSR850",
         "countries": [
             {
@@ -782,28 +810,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSR821",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Peloponnese, Greece",
-        "centroid": "POINT (21.790352 37.231148)",
-        "activationTime": "2025-07-26T19:02:00",
-        "lastUpdate": "2025-07-28T15:11:33.550671",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 2,
-        "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSR820",
         "countries": [
             {
@@ -823,6 +829,28 @@
         "n_aois": 1,
         "n_products": 1,
         "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSR821",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Peloponnese, Greece",
+        "centroid": "POINT (21.790352 37.231148)",
+        "activationTime": "2025-07-26T19:02:00",
+        "lastUpdate": "2025-07-28T15:11:33.550671",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 2,
+        "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
         "past_items_search_text": ""
     },
     {
@@ -3873,28 +3901,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN183",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Forest fire impact assessment in Sierra de Los Guajares, Spain",
-        "centroid": "POINT (3.60201 36.85033)",
-        "activationTime": "2023-11-23T00:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 6,
-        "search_snippet": "",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSN184",
         "countries": [
             {
@@ -3913,6 +3919,28 @@
         "closed": true,
         "n_aois": 1,
         "n_products": 2,
+        "search_snippet": "",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSN183",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Forest fire impact assessment in Sierra de Los Guajares, Spain",
+        "centroid": "POINT (3.60201 36.85033)",
+        "activationTime": "2023-11-23T00:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 6,
         "search_snippet": "",
         "past_items_search_text": ""
     },
@@ -8551,28 +8579,6 @@
         "past_items_search_text": "Ribas de Sil Grading"
     },
     {
-        "code": "EMSN109",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Alcaracejos, Spain",
-        "centroid": "POINT (-4.94932 38.2282)",
-        "activationTime": "2021-09-01T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alcaracejos, in the region of Cordoba-Andaluc\u00eda (Spain), on 16thAugust 2021. According to Infoca Plan, the initial damage assessment resulted in about 610 ha burnt; the fire not only destroye P07-Wildfire Delineation and Grading"
-    },
-    {
         "code": "EMSN108",
         "countries": [
             {
@@ -8593,6 +8599,28 @@
         "n_products": 1,
         "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish pro...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba\u00f1obrez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arr P07-Wildfire Delineation and Grading"
+    },
+    {
+        "code": "EMSN109",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Alcaracejos, Spain",
+        "centroid": "POINT (-4.94932 38.2282)",
+        "activationTime": "2021-09-01T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alcaracejos, in the region of Cordoba-Andaluc\u00eda (Spain), on 16thAugust 2021. According to Infoca Plan, the initial damage assessment resulted in about 610 ha burnt; the fire not only destroye P07-Wildfire Delineation and Grading"
     },
     {
         "code": "EMSN110",
@@ -9610,28 +9638,6 @@
         "past_items_search_text": "Schinos Grading Schinos Delineation Schinos Delineation Schinos First Estimate"
     },
     {
-        "code": "EMSN093",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "mass",
-            "name": "Mass Movement"
-        },
-        "name": "Rockfall risk analysis in Valle Gran Rey, La Gomera (Spain)",
-        "centroid": "POINT (-17.31476 28.102249999999998)",
-        "activationTime": "2021-04-30T01:00:00",
-        "lastUpdate": "2026-01-20T10:00:57.435407",
-        "drmPhase": "preparedness",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 6,
-        "search_snippet": "EMSN093 was activated to demonstrate that satellite-derived data can be used to study small-medium sized rockfalls, as the one occurred in Valle Gran Rey of the La Gomera island (Canary Islands, Spain) on the 14thof November 2021. Moreover, the results will support local authorities by offering i...",
-        "past_items_search_text": "EMSN093 was activated to demonstrate that satellite-derived data can be used to study small-medium sized rockfalls, as the one occurred in Valle Gran Rey of the La Gomera island (Canary Islands, Spain) on the 14thof November 2021. Moreover, the results will support local authorities by offering information on the potential hazard of the area, to carry out the adequate management plans.\r\n\r\nThe products resulting from this activation are:\r\n\r\nProduct 2\r\n\r\nPre-event DEM extracted using photogrammetr Rockfall hazard. Overview key map (Overview A1) Rockfall asset and population risk (low season). Overview key map (Overview A1) Rockfall asset and population risk (high season). Overview key map (Overview A1) Rockfall asset and population exposure. Overview key map (Overview A1) Reference. Overview key map (Overview A1) Ground Deformation. Overview key map (Overview A1)"
-    },
-    {
         "code": "EMSN091",
         "countries": [
             {
@@ -9652,6 +9658,28 @@
         "n_products": 1,
         "search_snippet": "",
         "past_items_search_text": "The service was activated by a request from the Federal Office of Civil Protection and Disaster Assistance (BBK) on behalf of Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) \u2013 authorized user, and the University of Philippines \u2013 local user. Several sources suggest that the Manila NCR and lower Pampanga river basin, Philippines, has been affected by ground subsidence phenomena impacting settlements and increasing flood risk.\n\nThe EMS service aims to provide evidence of ground motion Ground Deformation \u2013 Overview key map (Overview A1)"
+    },
+    {
+        "code": "EMSN093",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "mass",
+            "name": "Mass Movement"
+        },
+        "name": "Rockfall risk analysis in Valle Gran Rey, La Gomera (Spain)",
+        "centroid": "POINT (-17.31476 28.102249999999998)",
+        "activationTime": "2021-04-30T01:00:00",
+        "lastUpdate": "2026-01-20T10:00:57.435407",
+        "drmPhase": "preparedness",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 6,
+        "search_snippet": "EMSN093 was activated to demonstrate that satellite-derived data can be used to study small-medium sized rockfalls, as the one occurred in Valle Gran Rey of the La Gomera island (Canary Islands, Spain) on the 14thof November 2021. Moreover, the results will support local authorities by offering i...",
+        "past_items_search_text": "EMSN093 was activated to demonstrate that satellite-derived data can be used to study small-medium sized rockfalls, as the one occurred in Valle Gran Rey of the La Gomera island (Canary Islands, Spain) on the 14thof November 2021. Moreover, the results will support local authorities by offering information on the potential hazard of the area, to carry out the adequate management plans.\r\n\r\nThe products resulting from this activation are:\r\n\r\nProduct 2\r\n\r\nPre-event DEM extracted using photogrammetr Rockfall hazard. Overview key map (Overview A1) Rockfall asset and population risk (low season). Overview key map (Overview A1) Rockfall asset and population risk (high season). Overview key map (Overview A1) Rockfall asset and population exposure. Overview key map (Overview A1) Reference. Overview key map (Overview A1) Ground Deformation. Overview key map (Overview A1)"
     },
     {
         "code": "EMSN095",
@@ -19839,28 +19867,6 @@
         "past_items_search_text": "Doboj Delineation Balatun Delineation Balatun Delineation Balatun Delineation Balatun Delineation Balatun Reference Balatun Reference Doboj Delineation Doboj Delineation Doboj Delineation Orasje Delineation Orasje Delineation Brcko Delineation Bijeljina Delineation Doboj Delineation Doboj Delineation Doboj Delineation Doboj Reference Doboj Delineation Doboj Delineation"
     },
     {
-        "code": "EMSR084",
-        "countries": [
-            {
-                "short_name": "Luxembourg"
-            }
-        ],
-        "category": {
-            "slug": "industrial",
-            "name": "Industrial Accident"
-        },
-        "name": "LuModExercise - Industrial accident",
-        "centroid": "POINT (6.44 49.8)",
-        "activationTime": "2014-05-07T11:30:00",
-        "lastUpdate": "2014-05-30T17:11:00",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 2,
-        "search_snippet": "",
-        "past_items_search_text": "Echternach Reference Echternach Reference"
-    },
-    {
         "code": "EMSR085",
         "countries": [
             {
@@ -19881,6 +19887,28 @@
         "n_products": 2,
         "search_snippet": "",
         "past_items_search_text": "Mertert Reference Mertert Reference"
+    },
+    {
+        "code": "EMSR084",
+        "countries": [
+            {
+                "short_name": "Luxembourg"
+            }
+        ],
+        "category": {
+            "slug": "industrial",
+            "name": "Industrial Accident"
+        },
+        "name": "LuModExercise - Industrial accident",
+        "centroid": "POINT (6.44 49.8)",
+        "activationTime": "2014-05-07T11:30:00",
+        "lastUpdate": "2014-05-30T17:11:00",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 2,
+        "search_snippet": "",
+        "past_items_search_text": "Echternach Reference Echternach Reference"
     },
     {
         "code": "EMSR083",
@@ -19993,28 +20021,6 @@
         "past_items_search_text": "Ciolanestiidindeal Delineation Ciolanestiidindeal Delineation Bragadiru Delineation Bragadiru Delineation Ciolanestiidindeal Reference Ciolanestiidindeal Reference Bragadiru Reference Bragadiru Reference"
     },
     {
-        "code": "EMSN040",
-        "countries": [
-            {
-                "short_name": "Finland"
-            }
-        ],
-        "category": {
-            "slug": "other",
-            "name": "Other"
-        },
-        "name": "Basic European Assets Map, Finland",
-        "centroid": "POINT (25.74815 61.92411)",
-        "activationTime": "2014-04-22T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "preparedness",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "",
-        "past_items_search_text": "Service Request: The nation-wide asset mapping for Finland provides a detailed regional geospatial dataset for the quick and uncomplicated calculation of potential damages either in the preparedness phase or during the immediate response phase of crises caused by natural hazard events. The concept follows the Basic European Asset Map (BEAM) data model developed under the Copernicus precursor project SAFER (Services and Applications for Emergency Response) and extended in the FP7 project IncREO ( BEAM V2 2012 Finland"
-    },
-    {
         "code": "EMSN024",
         "countries": [
             {
@@ -20035,6 +20041,28 @@
         "n_products": 1,
         "search_snippet": "",
         "past_items_search_text": "Risk analysis for natural hazard topics, damage assessment Asset Map Germany"
+    },
+    {
+        "code": "EMSN040",
+        "countries": [
+            {
+                "short_name": "Finland"
+            }
+        ],
+        "category": {
+            "slug": "other",
+            "name": "Other"
+        },
+        "name": "Basic European Assets Map, Finland",
+        "centroid": "POINT (25.74815 61.92411)",
+        "activationTime": "2014-04-22T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "preparedness",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "",
+        "past_items_search_text": "Service Request: The nation-wide asset mapping for Finland provides a detailed regional geospatial dataset for the quick and uncomplicated calculation of potential damages either in the preparedness phase or during the immediate response phase of crises caused by natural hazard events. The concept follows the Basic European Asset Map (BEAM) data model developed under the Copernicus precursor project SAFER (Services and Applications for Emergency Response) and extended in the FP7 project IncREO ( BEAM V2 2012 Finland"
     },
     {
         "code": "EMSN012",
