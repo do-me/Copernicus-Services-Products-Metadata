@@ -60,11 +60,11 @@
         "name": "Flood and landslides in Friuli Venezia-Giulia, Italy: Ground Deformation, Damage, Risk and Impact Assessment",
         "centroid": "POINT (13.44682 45.97987)",
         "activationTime": "2025-12-04T00:00:00",
-        "lastUpdate": "2026-02-09T14:15:30.453917",
+        "lastUpdate": "2026-02-16T13:13:53.983017",
         "drmPhase": "recovery",
         "closed": false,
         "n_aois": 1,
-        "n_products": 8,
+        "n_products": 9,
         "search_snippet": "During the night between 16 and 17 November 2025, an intense convective rainfall event struck the Friuli Venezia Giulia region in northeastern Italy, which triggered rapid rises in water levels along the Judrio River and its tributaries, producing flash floods that affected several municipalities...",
         "past_items_search_text": ""
     },
