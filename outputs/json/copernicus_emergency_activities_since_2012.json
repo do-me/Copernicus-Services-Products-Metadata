@@ -104,7 +104,7 @@
         "name": "Ground deformation monitoring in Terceira Island 2025, Azores",
         "centroid": "POINT (-27.3096 38.7418)",
         "activationTime": "2025-12-01T11:22:56",
-        "lastUpdate": "2026-02-09T11:25:08.384717",
+        "lastUpdate": "2026-03-03T15:30:15.413063",
         "drmPhase": "preparedness",
         "closed": false,
         "n_aois": 1,
@@ -832,28 +832,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSR820",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in East Attica, Greece",
-        "centroid": "POINT (23.802395 38.169519)",
-        "activationTime": "2025-07-26T19:02:00",
-        "lastUpdate": "2025-07-28T13:24:34.744611",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSR821",
         "countries": [
             {
@@ -873,6 +851,28 @@
         "n_aois": 1,
         "n_products": 2,
         "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSR820",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in East Attica, Greece",
+        "centroid": "POINT (23.802395 38.169519)",
+        "activationTime": "2025-07-26T19:02:00",
+        "lastUpdate": "2025-07-28T13:24:34.744611",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
         "past_items_search_text": ""
     },
     {
@@ -8601,6 +8601,28 @@
         "past_items_search_text": "Ribas de Sil Grading"
     },
     {
+        "code": "EMSN109",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Alcaracejos, Spain",
+        "centroid": "POINT (-4.94932 38.2282)",
+        "activationTime": "2021-09-01T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alcaracejos, in the region of Cordoba-Andaluc\u00eda (Spain), on 16thAugust 2021. According to Infoca Plan, the initial damage assessment resulted in about 610 ha burnt; the fire not only destroye P07-Wildfire Delineation and Grading"
+    },
+    {
         "code": "EMSN110",
         "countries": [
             {
@@ -8643,28 +8665,6 @@
         "n_products": 1,
         "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish pro...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba\u00f1obrez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arr P07-Wildfire Delineation and Grading"
-    },
-    {
-        "code": "EMSN109",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Alcaracejos, Spain",
-        "centroid": "POINT (-4.94932 38.2282)",
-        "activationTime": "2021-09-01T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alcaracejos, in the region of Cordoba-Andaluc\u00eda (Spain), on 16thAugust 2021. According to Infoca Plan, the initial damage assessment resulted in about 610 ha burnt; the fire not only destroye P07-Wildfire Delineation and Grading"
     },
     {
         "code": "EMSN106",
@@ -9173,28 +9173,6 @@
         "past_items_search_text": "Aijazi First Estimate"
     },
     {
-        "code": "EMSN102",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfires in Huelva, Spain",
-        "centroid": "POINT (-6.61875 37.43943)",
-        "activationTime": "2021-07-27T02:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural are...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural areas of Villarrasa, in the Huelva province (Andalucia region, Southern Spain) on 24th July 2021. A total of 15 aircrafts and 120 forest firefighters fought against the propagation of the wildfire which, ho Fire Delineation and Grading"
-    },
-    {
         "code": "EMSN103",
         "countries": [
             {
@@ -9215,6 +9193,28 @@
         "n_products": 4,
         "search_snippet": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and hum...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and humanitarian crisis linked to armed conflicts, conflicts between communities, or tensions between farmers and breeders in some areas. This situation of instability in the country has dramatically worsened d P19-Population displacement location P19-MONIT01-Overview Map P19-Overview Map P19-Population displacement location-MONIT01"
+    },
+    {
+        "code": "EMSN102",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfires in Huelva, Spain",
+        "centroid": "POINT (-6.61875 37.43943)",
+        "activationTime": "2021-07-27T02:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural are...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural areas of Villarrasa, in the Huelva province (Andalucia region, Southern Spain) on 24th July 2021. A total of 15 aircrafts and 120 forest firefighters fought against the propagation of the wildfire which, ho Fire Delineation and Grading"
     },
     {
         "code": "EMSR523",
@@ -10651,14 +10651,14 @@
             "name": "Flood"
         },
         "name": "Flood in Extremadura- Spain",
-        "centroid": "POINT (-5.5651 40.0425)",
+        "centroid": "POINT (-5.565099999999999 40.04249999999998)",
         "activationTime": "2020-10-22T14:45:00",
-        "lastUpdate": null,
+        "lastUpdate": "2026-03-05T13:11:19.243588",
         "drmPhase": "response",
         "closed": true,
         "n_aois": 1,
         "n_products": 1,
-        "search_snippet": "Last summer a great fire broke out in the mountains of the north of the C\u221a\u00b0ceres department, tributaries that pour their waters into the Tietar river spring from the affected mountains. Also, on the 20th and 21st of October 2020, the same area has received heavier rainfall than usual during a sho...",
+        "search_snippet": "Last summer a great fire broke out in the mountains of the north of the Caceres department, tributaries that pour their waters into the Tietar river spring from the affected mountains. Also, on the 20th and 21st of October 2020, the same area has received heavier rainfall than usual during a ...",
         "past_items_search_text": ""
     },
     {
@@ -11727,28 +11727,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN071",
-        "countries": [
-            {
-                "short_name": "Germany"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfires, Preparedness, Arnsberg, Germany",
-        "centroid": "POINT (8.021859999999998 51.41891999999999)",
-        "activationTime": "2020-04-09T01:00:00",
-        "lastUpdate": "2026-01-20T09:58:16.184451",
-        "drmPhase": "preparedness",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 4,
-        "search_snippet": "The scope of the service request EMSN-071 is to support the fire department and administration of the City of Arnsberg (Hochsauerland County, State North Rhine-Westphalia, Germany), with designing pre-event preventive measures, as well as incident coordination, in regards of wildfires that could...",
-        "past_items_search_text": "The scope of the service request EMSN-071 is to support the fire department and administration of the City of Arnsberg (Hochsauerland County, State North Rhine-Westphalia, Germany), with designing pre-event preventive measures, as well as incident coordination, in regards of wildfires that could hit this territory.\r\n\r\nMore than 63% of the town\u2019s area is covered by forest, including several large protected areas; forest plays an important economic role in both tourism and the timber-processing busi Reference map (Overview A1) Land Use Land Cover map (Overview A1) Pre-disaster forest fire hazard (Overview A1) Pre-disaster forest fire exposure (Overview A1)"
-    },
-    {
         "code": "EMSN066",
         "countries": [
             {
@@ -11769,6 +11747,28 @@
         "n_products": 11,
         "search_snippet": "",
         "past_items_search_text": "The scope of the service request EMSN-066 is to delineate the extent and assess damage of 9 to 11 January 2020 flood event, in South-East Iran. As predicted by Copernicus EMS service GloFAS, days of heavy rain from 9 to 11 January 2020 caused severe flooding in southern Iran, in Sistan and Baluchestan, Hormozgan and south of Kerman provinces. Flooding has blocked roads and damaged houses, bridges, crops and infrastructure. Dozens of areas have been left isolated after roads were damaged or block Reservoir and dam change detection (Overview A3) Reference map (Overview A3) Flood delineation (Overview A3) Damage assessment (Overview A3) Reference map (Overview A2) Flood delineation (Overview A2) Damage assessment (Overview A2) Reservoir and dam change detection (Overview A1) Reference map (Overview A1) Flood delineation (Overview A1)"
+    },
+    {
+        "code": "EMSN071",
+        "countries": [
+            {
+                "short_name": "Germany"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfires, Preparedness, Arnsberg, Germany",
+        "centroid": "POINT (8.021859999999998 51.41891999999999)",
+        "activationTime": "2020-04-09T01:00:00",
+        "lastUpdate": "2026-01-20T09:58:16.184451",
+        "drmPhase": "preparedness",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 4,
+        "search_snippet": "The scope of the service request EMSN-071 is to support the fire department and administration of the City of Arnsberg (Hochsauerland County, State North Rhine-Westphalia, Germany), with designing pre-event preventive measures, as well as incident coordination, in regards of wildfires that could...",
+        "past_items_search_text": "The scope of the service request EMSN-071 is to support the fire department and administration of the City of Arnsberg (Hochsauerland County, State North Rhine-Westphalia, Germany), with designing pre-event preventive measures, as well as incident coordination, in regards of wildfires that could hit this territory.\r\n\r\nMore than 63% of the town\u2019s area is covered by forest, including several large protected areas; forest plays an important economic role in both tourism and the timber-processing busi Reference map (Overview A1) Land Use Land Cover map (Overview A1) Pre-disaster forest fire hazard (Overview A1) Pre-disaster forest fire exposure (Overview A1)"
     },
     {
         "code": "EMSR434",
