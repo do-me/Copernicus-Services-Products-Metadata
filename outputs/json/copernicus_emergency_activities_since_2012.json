@@ -60,11 +60,11 @@
         "name": "Flood and landslides in Friuli Venezia-Giulia, Italy: Ground Deformation, Damage, Risk and Impact Assessment",
         "centroid": "POINT (13.44682 45.97987)",
         "activationTime": "2025-12-04T00:00:00",
-        "lastUpdate": "2026-02-16T13:13:53.983017",
+        "lastUpdate": "2026-03-10T14:33:18.287330",
         "drmPhase": "recovery",
         "closed": false,
         "n_aois": 1,
-        "n_products": 9,
+        "n_products": 10,
         "search_snippet": "During the night between 16 and 17 November 2025, an intense convective rainfall event struck the Friuli Venezia Giulia region in northeastern Italy, which triggered rapid rises in water levels along the Judrio River and its tributaries, producing flash floods that affected several municipalities...",
         "past_items_search_text": ""
     },
@@ -832,28 +832,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSR821",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Peloponnese, Greece",
-        "centroid": "POINT (21.790352 37.231148)",
-        "activationTime": "2025-07-26T19:02:00",
-        "lastUpdate": "2025-07-28T15:11:33.550671",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 2,
-        "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSR820",
         "countries": [
             {
@@ -873,6 +851,28 @@
         "n_aois": 1,
         "n_products": 1,
         "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSR821",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Peloponnese, Greece",
+        "centroid": "POINT (21.790352 37.231148)",
+        "activationTime": "2025-07-26T19:02:00",
+        "lastUpdate": "2025-07-28T15:11:33.550671",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 2,
+        "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
         "past_items_search_text": ""
     },
     {
