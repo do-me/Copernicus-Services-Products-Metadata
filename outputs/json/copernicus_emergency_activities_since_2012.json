@@ -132,7 +132,7 @@
         "name": "Multi hazard mapping in ZIMOZA Transfrontier Conservation Area in Zimbabwe, Mozambique, Zambia",
         "centroid": "POINT (30.96199 -15.90896)",
         "activationTime": "2025-11-21T13:51:49",
-        "lastUpdate": "2026-02-06T12:24:31.454239",
+        "lastUpdate": "2026-04-08T07:13:02.738522",
         "drmPhase": "preparedness",
         "closed": false,
         "n_aois": 1,
@@ -832,28 +832,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSR820",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in East Attica, Greece",
-        "centroid": "POINT (23.802395 38.169519)",
-        "activationTime": "2025-07-26T19:02:00",
-        "lastUpdate": "2025-07-28T13:24:34.744611",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSR821",
         "countries": [
             {
@@ -873,6 +851,28 @@
         "n_aois": 1,
         "n_products": 2,
         "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSR820",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in East Attica, Greece",
+        "centroid": "POINT (23.802395 38.169519)",
+        "activationTime": "2025-07-26T19:02:00",
+        "lastUpdate": "2025-07-28T13:24:34.744611",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
         "past_items_search_text": ""
     },
     {
