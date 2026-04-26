@@ -104,7 +104,7 @@
         "name": "Ground deformation monitoring in Terceira Island 2025, Azores",
         "centroid": "POINT (-27.3096 38.7418)",
         "activationTime": "2025-12-01T11:22:56",
-        "lastUpdate": "2026-03-16T13:02:17.930667",
+        "lastUpdate": "2026-04-21T09:46:00.165543",
         "drmPhase": "preparedness",
         "closed": false,
         "n_aois": 1,
@@ -132,9 +132,9 @@
         "name": "Multi hazard mapping in ZIMOZA Transfrontier Conservation Area in Zimbabwe, Mozambique, Zambia",
         "centroid": "POINT (30.96199 -15.90896)",
         "activationTime": "2025-11-21T13:51:49",
-        "lastUpdate": "2026-04-08T07:13:02.738522",
+        "lastUpdate": "2026-04-21T14:55:39.171141",
         "drmPhase": "preparedness",
-        "closed": false,
+        "closed": true,
         "n_aois": 1,
         "n_products": 8,
         "search_snippet": "The current activation aims to develop a multi-hazard assessment for the ZIMOZA Transfrontier Conservation Area, focusing on flood, fire, drought, and soil-erosion scenarios. Building upon these hazard layers, the activation will also generate an exposure assessment, quantifying the populations,...",
@@ -832,28 +832,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSR821",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Peloponnese, Greece",
-        "centroid": "POINT (21.790352 37.231148)",
-        "activationTime": "2025-07-26T19:02:00",
-        "lastUpdate": "2025-07-28T15:11:33.550671",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 2,
-        "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSR820",
         "countries": [
             {
@@ -873,6 +851,28 @@
         "n_aois": 1,
         "n_products": 1,
         "search_snippet": "On the 26 July 2025 at 18:24 (CET), a wildfire was reported to have affected the area near Krioneri, in the outskirts of Athens, Greece. The fire expanded rapidly; residents of Krioneri and Drosopigi had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces...",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSR821",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Peloponnese, Greece",
+        "centroid": "POINT (21.790352 37.231148)",
+        "activationTime": "2025-07-26T19:02:00",
+        "lastUpdate": "2025-07-28T15:11:33.550671",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 2,
+        "search_snippet": "On the 26 July 2025 at 15:08 (CET), a wildfire was reported to have affected the area very close to Aetos in Peloponnese Region, Greece. The fire expanded rapidly; residents of Aetos and Monastiri had to be evacuated, and a 112 cell-broadcasting message was sent for this purpose. Ground forces an...",
         "past_items_search_text": ""
     },
     {
