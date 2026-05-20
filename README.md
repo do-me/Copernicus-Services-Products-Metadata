@@ -85,6 +85,113 @@ df = df.astype(object).fillna("")
 df # 781 rows
 ```
 
+## AI Product Discovery Skill
+
+This repository includes a lean skill for Claude Code and Codex at `skills/copernicus-product-discovery/`. It helps an agent turn a natural-language data need into ranked Copernicus product recommendations using the checked-in metadata.
+
+[![skills.sh](https://skills.sh/b/do-me/Copernicus-Services-Products-Metadata)](https://skills.sh/do-me/Copernicus-Services-Products-Metadata)
+
+The skill uses a retrieve-then-rerank workflow:
+
+1. Load the local metadata from `outputs/csv/copernicus_*.csv`.
+2. Build compact searchable product documents from each service's schema.
+3. Retrieve a cheap lexical candidate set.
+4. Rerank those candidates with Hugging Face's `cross-encoder/ettin-reranker-17m-v1`.
+
+Run it with `uv`:
+
+```bash
+uv run skills/copernicus-product-discovery/scripts/discover_products.py \
+  "daily sea surface temperature forecast for the Mediterranean" \
+  --top-k 5
+```
+
+If `uv` is not installed, install it first:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+For a cheap lexical-only search without loading the reranker:
+
+```bash
+uv run skills/copernicus-product-discovery/scripts/discover_products.py \
+  "daily sea surface temperature forecast for the Mediterranean" \
+  --top-k 5 \
+  --no-rerank
+```
+
+### Does the Reranker Add Value?
+
+Yes, for natural-language discovery queries where intent matters. Lexical search is useful and cheap, but it tends to over-rank records that repeat the exact words in the query and under-rank records whose metadata expresses the same need differently.
+
+Quality checks on the current metadata showed:
+
+* Query: `daily sea surface temperature forecast for the Mediterranean`
+  * Lexical-only ranked several observation/reprocessing SST records above the operational forecast.
+  * Ettin promoted `Mediterranean Sea Physics Analysis and Forecast` into the top results because it matched the forecast intent, temporal currency, and Mediterranean coverage.
+* Query: `global atmospheric methane and carbon dioxide forecasts`
+  * Lexical-only ranked generic CAMS atmospheric composition forecasts first.
+  * Ettin ranked `CAMS global greenhouse gas forecasts` first, matching methane, carbon dioxide, and forecast intent.
+* Query: `flood emergency mapping activations in Bolivia damage assessment`
+  * Ettin ranked the Bolivia flood activation records first and kept other flood-risk records lower.
+
+Use `--no-rerank` when the user gives an exact product title, product id, service name, or a very simple keyword lookup. Use the default reranker path for open-ended product discovery, mixed constraints, or when the user asks for the "best" or "most suitable" product.
+
+### First-Run Download Size
+
+The repository metadata is already checked in. Current local sizes are approximately:
+
+* `outputs/csv/`: 2.1 MB, used by the discovery script.
+* `outputs/`: 9.9 MB total across CSV, TSV, JSON, Excel, and Parquet copies.
+* `skills/copernicus-product-discovery/`: 24 KB.
+
+On first reranked use, `uv` resolves Python dependencies and Sentence Transformers downloads `cross-encoder/ettin-reranker-17m-v1` into the Hugging Face cache. The measured model cache size is about 68 MB, with the main model weights file about 64 MB. Subsequent runs reuse the cache.
+
+The reranker backend is selected automatically: CUDA if available, then Apple MPS, then CPU. You can override this for benchmarking or troubleshooting with `--device cpu`, `--device cuda`, or `--device mps`.
+
+The default reranker batch size is `128`, tuned for better throughput than the Sentence Transformers default on local GPU/MPS backends. You can override it with `--batch-size`.
+
+### Installing the Skill
+
+Install from GitHub with the `skills.sh` CLI:
+
+```bash
+npx skills add https://github.com/do-me/Copernicus-Services-Products-Metadata --skill copernicus-product-discovery
+```
+
+Or use it directly from a local clone by pointing your agent at:
+
+```text
+skills/copernicus-product-discovery/SKILL.md
+```
+
+The skill follows the Agent Skills `SKILL.md` folder format, so compatible agents can load the same folder without service-specific changes.
+
+### Publishing to Skill Directories
+
+For `skills.sh`, no extra package manifest is required. The skill is installable directly from this GitHub repository with `npx skills add ...`; the public listing and install counts are driven by the `skills` CLI ecosystem.
+
+For `agentskill.sh`, submit the GitHub repository at:
+
+```text
+https://agentskill.sh/submit
+```
+
+Use this repository URL:
+
+```text
+https://github.com/do-me/Copernicus-Services-Products-Metadata
+```
+
+`agentskill.sh` scans repositories for `SKILL.md` files. To keep the listing current immediately after pushes, add its GitHub webhook:
+
+```text
+https://agentskill.sh/api/webhooks/github
+```
+
+Use content type `application/json` and push events only.
+
 ## Local Development
 
 This project uses [uv](https://docs.astral.sh/uv/) for dependency management and script execution.

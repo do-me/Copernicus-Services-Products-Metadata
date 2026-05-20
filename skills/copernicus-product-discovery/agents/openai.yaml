@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copernicus Product Discovery"
+  short_description: "Find relevant Copernicus products"
+  default_prompt: "Use $copernicus-product-discovery to find the best Copernicus products for my data need."
