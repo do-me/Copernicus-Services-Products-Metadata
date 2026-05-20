@@ -3,6 +3,7 @@
 ![Update Copernicus Metadata](https://github.com/do-me/Copernicus-Services-Products-Metadata/actions/workflows/update_data.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.14-blue.svg)
 ![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)
+[![skills.sh](https://skills.sh/b/do-me/Copernicus-Services-Products-Metadata)](https://skills.sh/do-me/Copernicus-Services-Products-Metadata)
 
 This repository serves as an automated, centralized archive of product metadata from various **Copernicus Services**. 
 
@@ -85,11 +86,19 @@ df = df.astype(object).fillna("")
 df # 781 rows
 ```
 
-## AI Product Discovery Skill
+## AI Agent Product Discovery Skill
+
+You need npm installed. Then:
+
+**Install with: `npx skills add do-me/Copernicus-Services-Products-Metadata --skill copernicus-product-discovery`**
+
+<img width="1089" height="890" alt="image" src="https://github.com/user-attachments/assets/9e2e15d7-c3b8-49a1-b1b0-c477860ade1b" />
 
 This repository includes a lean skill for Claude Code and Codex at `skills/copernicus-product-discovery/`. It helps an agent turn a natural-language data need into ranked Copernicus product recommendations using the checked-in metadata.
 
-[![skills.sh](https://skills.sh/b/do-me/Copernicus-Services-Products-Metadata)](https://skills.sh/do-me/Copernicus-Services-Products-Metadata)
+The agent will pick up the skill automatically. You can just ask it for example: "what are most suitable copernicus products for green house gas monitoring?"
+
+<img width="2802" height="1522" alt="image" src="https://github.com/user-attachments/assets/697667d8-6ced-40ee-9c61-c6a6250e9762" />
 
 The skill uses a retrieve-then-rerank workflow:
 
