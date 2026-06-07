@@ -8623,28 +8623,6 @@
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alcaracejos, in the region of Cordoba-Andaluc\u00eda (Spain), on 16thAugust 2021. According to Infoca Plan, the initial damage assessment resulted in about 610 ha burnt; the fire not only destroye P07-Wildfire Delineation and Grading"
     },
     {
-        "code": "EMSN108",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in San Felices de los Gallegos, Spain",
-        "centroid": "POINT (-6.67526 40.8026)",
-        "activationTime": "2021-09-01T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish pro...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba\u00f1obrez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arr P07-Wildfire Delineation and Grading"
-    },
-    {
         "code": "EMSN110",
         "countries": [
             {
@@ -8665,6 +8643,28 @@
         "n_products": 1,
         "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alburquerque in the region of Badajoz (Spain), on 18thAugust 2021. It spread in different directions, burning cultivated areas, grassland and mountains, until it was extinguished on 22ndAugus P07-Wildfire Delineation and Grading"
+    },
+    {
+        "code": "EMSN108",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in San Felices de los Gallegos, Spain",
+        "centroid": "POINT (-6.67526 40.8026)",
+        "activationTime": "2021-09-01T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish pro...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba\u00f1obrez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arr P07-Wildfire Delineation and Grading"
     },
     {
         "code": "EMSN106",
@@ -9261,28 +9261,6 @@
         "past_items_search_text": "Isso Grading Isso Delineation"
     },
     {
-        "code": "EMSN100",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfires in La Rioja, Spain",
-        "centroid": "POINT (-2.01861 42.15347)",
-        "activationTime": "2021-07-23T02:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in La Rioja region...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in La Rioja region (North-Eastern Spain) on 18thJuly 2021. Within the municipalities of Autol, Grvalos, Quel and Villarroya more than 200 hectares of wooden areas have burnt. The event affected also more than 360 hectares Fire Delineation and Grading"
-    },
-    {
         "code": "EMSN101",
         "countries": [
             {
@@ -9303,6 +9281,28 @@
         "n_products": 1,
         "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Ciudad Real...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Ciudad Real province (Castilla la Mancha region, Spain) on 12thJuly 2021. The wildfire hit especially the municipalities of Chill\u00f3n and Almad\u00e9n, where about 2000 ha of an agricultural land burnt. The goal of the ac Fire Delineation and Grading"
+    },
+    {
+        "code": "EMSN100",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfires in La Rioja, Spain",
+        "centroid": "POINT (-2.01861 42.15347)",
+        "activationTime": "2021-07-23T02:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in La Rioja region...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in La Rioja region (North-Eastern Spain) on 18thJuly 2021. Within the municipalities of Autol, Grvalos, Quel and Villarroya more than 200 hectares of wooden areas have burnt. The event affected also more than 360 hectares Fire Delineation and Grading"
     },
     {
         "code": "EMSR521",
@@ -12035,28 +12035,6 @@
         "past_items_search_text": "This activation follows a windstorm occurred in the Gorenjska Region, Slovenia, which caused severe damages to the woods in the area surrounding the airport of Ljubljana. The event hit the area twice: on the 5th and 6th of February 2020, and few days later, on the 10th and 11th of February 2020. The Authorized User requested the damage assessment of woods within the area of interest.\n\nProposed solution and results\n\n[Image: EMSN070_STD_PostEventDSMZoom1_19032020.png]\n\nFigure 1 - Detail of the pos P08.1 - Detailed damage assessment analyses over affected areas P01.1 - DSM (based on optical VHR data) P15 - Detailed impact assessment analyses on selected aspect"
     },
     {
-        "code": "EMSN064",
-        "countries": [
-            {
-                "short_name": "Ukraine"
-            }
-        ],
-        "category": {
-            "slug": "other",
-            "name": "Other"
-        },
-        "name": "Detection and mapping of ground deformations of anthropogenic sinkholes",
-        "centroid": "POINT (23.87015 47.95273)",
-        "activationTime": "2020-02-14T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 4,
-        "search_snippet": "",
-        "past_items_search_text": "The scope is the assessment of the sinkhole risk in the mining area of Solotvyno, Zakarpattya region, Ukraine, in continuation of the previous serviceEMSN-030. A systematic salt mining began in the second half of the 18th century with up to eight salt mines in operation. Although the flooding with ground water and the erosion of subsoil salt layers began in the early 2000s, the extraction of salt had not been completely stopped until 2010, when in December 3000m\u00b3 of land collapsed.\n\nThe aim is t Surface Dynamics Map Subsidence and Landslide Risk Map Reference map Land use/ land cover map"
-    },
-    {
         "code": "EMSN063",
         "countries": [
             {
@@ -12077,6 +12055,28 @@
         "n_products": 5,
         "search_snippet": "EMSN063 was activated to support the World Food Program in order to provide information about cropland change and population affected by cropland loss in the north-eastern Nigerian Borno region over 5 AOIs, helping to understand the food security situation. The area under focus is has not been ac...",
         "past_items_search_text": "EMSN063 was activated to support the World Food Program in order to provide information about cropland change and population affected by cropland loss in the north-eastern Nigerian Borno region over 5 AOIs, helping to understand the food security situation. The area under focus is has not been accessed for several years and little to no data could be collected due to intense fighting activities by Boko Haram since 2010.\n\nThe aim of the activation is a crop change analysis implemented between the Crop Change Crop Change Crop Change Crop Change Crop Change"
+    },
+    {
+        "code": "EMSN064",
+        "countries": [
+            {
+                "short_name": "Ukraine"
+            }
+        ],
+        "category": {
+            "slug": "other",
+            "name": "Other"
+        },
+        "name": "Detection and mapping of ground deformations of anthropogenic sinkholes",
+        "centroid": "POINT (23.87015 47.95273)",
+        "activationTime": "2020-02-14T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 4,
+        "search_snippet": "",
+        "past_items_search_text": "The scope is the assessment of the sinkhole risk in the mining area of Solotvyno, Zakarpattya region, Ukraine, in continuation of the previous serviceEMSN-030. A systematic salt mining began in the second half of the 18th century with up to eight salt mines in operation. Although the flooding with ground water and the erosion of subsoil salt layers began in the early 2000s, the extraction of salt had not been completely stopped until 2010, when in December 3000m\u00b3 of land collapsed.\n\nThe aim is t Surface Dynamics Map Subsidence and Landslide Risk Map Reference map Land use/ land cover map"
     },
     {
         "code": "EMSR426",
