@@ -60,7 +60,7 @@
         "name": "Flood and landslides in Friuli Venezia-Giulia, Italy: Ground Deformation, Damage, Risk and Impact Assessment",
         "centroid": "POINT (13.44682 45.97987)",
         "activationTime": "2025-12-04T00:00:00",
-        "lastUpdate": "2026-06-08T14:11:17.650485",
+        "lastUpdate": "2026-06-18T13:05:50.852732",
         "drmPhase": "recovery",
         "closed": false,
         "n_aois": 1,
@@ -3923,28 +3923,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN183",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Forest fire impact assessment in Sierra de Los Guajares, Spain",
-        "centroid": "POINT (3.60201 36.85033)",
-        "activationTime": "2023-11-23T00:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 6,
-        "search_snippet": "",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSN184",
         "countries": [
             {
@@ -3963,6 +3941,28 @@
         "closed": true,
         "n_aois": 1,
         "n_products": 2,
+        "search_snippet": "",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSN183",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Forest fire impact assessment in Sierra de Los Guajares, Spain",
+        "centroid": "POINT (3.60201 36.85033)",
+        "activationTime": "2023-11-23T00:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 6,
         "search_snippet": "",
         "past_items_search_text": ""
     },
@@ -4608,28 +4608,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSR689",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Rodopi, Greece",
-        "centroid": "POINT (25.504761 41.090738)",
-        "activationTime": "2023-08-22T08:53:00",
-        "lastUpdate": "2023-11-28T09:27:40.534169",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 2,
-        "n_products": 7,
-        "search_snippet": "",
-        "past_items_search_text": ""
-    },
-    {
         "code": "EMSR688",
         "countries": [
             {
@@ -4648,6 +4626,28 @@
         "closed": true,
         "n_aois": 1,
         "n_products": 1,
+        "search_snippet": "",
+        "past_items_search_text": ""
+    },
+    {
+        "code": "EMSR689",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Rodopi, Greece",
+        "centroid": "POINT (25.504761 41.090738)",
+        "activationTime": "2023-08-22T08:53:00",
+        "lastUpdate": "2023-11-28T09:27:40.534169",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 2,
+        "n_products": 7,
         "search_snippet": "",
         "past_items_search_text": ""
     },
@@ -8601,6 +8601,28 @@
         "past_items_search_text": "Ribas de Sil Grading"
     },
     {
+        "code": "EMSN110",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfire in Alburquerque, Spain",
+        "centroid": "POINT (-6.85472 40.02093)",
+        "activationTime": "2021-09-01T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alburquerque in the region of Badajoz (Spain), on 18thAugust 2021. It spread in different directions, burning cultivated areas, grassland and mountains, until it was extinguished on 22ndAugus P07-Wildfire Delineation and Grading"
+    },
+    {
         "code": "EMSN109",
         "countries": [
             {
@@ -8643,28 +8665,6 @@
         "n_products": 1,
         "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish pro...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the Spanish province of Salamanca (Spain), on 17th August 2021. Active flames were located in San Felices de los Gallegos and Ba\u00f1obrez, as well as in the areas known as La Granja and Los Navazos, on the edge of the Arr P07-Wildfire Delineation and Grading"
-    },
-    {
-        "code": "EMSN110",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfire in Alburquerque, Spain",
-        "centroid": "POINT (-6.85472 40.02093)",
-        "activationTime": "2021-09-01T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the muni...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the in the municipality of Alburquerque in the region of Badajoz (Spain), on 18thAugust 2021. It spread in different directions, burning cultivated areas, grassland and mountains, until it was extinguished on 22ndAugus P07-Wildfire Delineation and Grading"
     },
     {
         "code": "EMSN106",
@@ -9173,28 +9173,6 @@
         "past_items_search_text": "Aijazi First Estimate"
     },
     {
-        "code": "EMSN103",
-        "countries": [
-            {
-                "short_name": "Central African Republic"
-            }
-        ],
-        "category": {
-            "slug": "humanitarian",
-            "name": "Humanitarian Crisis"
-        },
-        "name": "IDP camp monitoring in Bria, Central African Republic",
-        "centroid": "POINT (21.9657 6.54857)",
-        "activationTime": "2021-07-27T02:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 4,
-        "search_snippet": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and hum...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and humanitarian crisis linked to armed conflicts, conflicts between communities, or tensions between farmers and breeders in some areas. This situation of instability in the country has dramatically worsened d P19-Population displacement location P19-MONIT01-Overview Map P19-Overview Map P19-Population displacement location-MONIT01"
-    },
-    {
         "code": "EMSN102",
         "countries": [
             {
@@ -9215,6 +9193,28 @@
         "n_products": 1,
         "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural are...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural areas of Villarrasa, in the Huelva province (Andalucia region, Southern Spain) on 24th July 2021. A total of 15 aircrafts and 120 forest firefighters fought against the propagation of the wildfire which, ho Fire Delineation and Grading"
+    },
+    {
+        "code": "EMSN103",
+        "countries": [
+            {
+                "short_name": "Central African Republic"
+            }
+        ],
+        "category": {
+            "slug": "humanitarian",
+            "name": "Humanitarian Crisis"
+        },
+        "name": "IDP camp monitoring in Bria, Central African Republic",
+        "centroid": "POINT (21.9657 6.54857)",
+        "activationTime": "2021-07-27T02:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 4,
+        "search_snippet": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and hum...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and humanitarian crisis linked to armed conflicts, conflicts between communities, or tensions between farmers and breeders in some areas. This situation of instability in the country has dramatically worsened d P19-Population displacement location P19-MONIT01-Overview Map P19-Overview Map P19-Population displacement location-MONIT01"
     },
     {
         "code": "EMSR523",
@@ -12035,28 +12035,6 @@
         "past_items_search_text": "This activation follows a windstorm occurred in the Gorenjska Region, Slovenia, which caused severe damages to the woods in the area surrounding the airport of Ljubljana. The event hit the area twice: on the 5th and 6th of February 2020, and few days later, on the 10th and 11th of February 2020. The Authorized User requested the damage assessment of woods within the area of interest.\n\nProposed solution and results\n\n[Image: EMSN070_STD_PostEventDSMZoom1_19032020.png]\n\nFigure 1 - Detail of the pos P08.1 - Detailed damage assessment analyses over affected areas P01.1 - DSM (based on optical VHR data) P15 - Detailed impact assessment analyses on selected aspect"
     },
     {
-        "code": "EMSN064",
-        "countries": [
-            {
-                "short_name": "Ukraine"
-            }
-        ],
-        "category": {
-            "slug": "other",
-            "name": "Other"
-        },
-        "name": "Detection and mapping of ground deformations of anthropogenic sinkholes",
-        "centroid": "POINT (23.87015 47.95273)",
-        "activationTime": "2020-02-14T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 4,
-        "search_snippet": "",
-        "past_items_search_text": "The scope is the assessment of the sinkhole risk in the mining area of Solotvyno, Zakarpattya region, Ukraine, in continuation of the previous serviceEMSN-030. A systematic salt mining began in the second half of the 18th century with up to eight salt mines in operation. Although the flooding with ground water and the erosion of subsoil salt layers began in the early 2000s, the extraction of salt had not been completely stopped until 2010, when in December 3000m\u00b3 of land collapsed.\n\nThe aim is t Surface Dynamics Map Subsidence and Landslide Risk Map Reference map Land use/ land cover map"
-    },
-    {
         "code": "EMSN063",
         "countries": [
             {
@@ -12077,6 +12055,28 @@
         "n_products": 5,
         "search_snippet": "EMSN063 was activated to support the World Food Program in order to provide information about cropland change and population affected by cropland loss in the north-eastern Nigerian Borno region over 5 AOIs, helping to understand the food security situation. The area under focus is has not been ac...",
         "past_items_search_text": "EMSN063 was activated to support the World Food Program in order to provide information about cropland change and population affected by cropland loss in the north-eastern Nigerian Borno region over 5 AOIs, helping to understand the food security situation. The area under focus is has not been accessed for several years and little to no data could be collected due to intense fighting activities by Boko Haram since 2010.\n\nThe aim of the activation is a crop change analysis implemented between the Crop Change Crop Change Crop Change Crop Change Crop Change"
+    },
+    {
+        "code": "EMSN064",
+        "countries": [
+            {
+                "short_name": "Ukraine"
+            }
+        ],
+        "category": {
+            "slug": "other",
+            "name": "Other"
+        },
+        "name": "Detection and mapping of ground deformations of anthropogenic sinkholes",
+        "centroid": "POINT (23.87015 47.95273)",
+        "activationTime": "2020-02-14T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 4,
+        "search_snippet": "",
+        "past_items_search_text": "The scope is the assessment of the sinkhole risk in the mining area of Solotvyno, Zakarpattya region, Ukraine, in continuation of the previous serviceEMSN-030. A systematic salt mining began in the second half of the 18th century with up to eight salt mines in operation. Although the flooding with ground water and the erosion of subsoil salt layers began in the early 2000s, the extraction of salt had not been completely stopped until 2010, when in December 3000m\u00b3 of land collapsed.\n\nThe aim is t Surface Dynamics Map Subsidence and Landslide Risk Map Reference map Land use/ land cover map"
     },
     {
         "code": "EMSR426",
@@ -17376,28 +17376,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN038",
-        "countries": [
-            {
-                "short_name": "Peru"
-            }
-        ],
-        "category": {
-            "slug": "flood",
-            "name": "Flood"
-        },
-        "name": "Post-disaster situation analyses of flood and landslides in Lima, Peru",
-        "centroid": "POINT (-76.95929999999998 -11.886920000000007)",
-        "activationTime": "2017-03-08T01:00:00",
-        "lastUpdate": "2026-01-20T09:57:00.365888",
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 5,
-        "search_snippet": "Post-disaster situation analyses of the flood that occurred in mid-March 2017 in Lima, Peru. Heavy rains affected nearly all of Peru leading to catastrophic flooding and landslides. In northern Lima, flooded areas along R\u00edmac and Chill\u00f3n rivers were reported.\n\nThe scope of the map production is t...",
-        "past_items_search_text": "Post-disaster situation analyses of the flood that occurred in mid-March 2017 in Lima, Peru. Heavy rains affected nearly all of Peru leading to catastrophic flooding and landslides. In northern Lima, flooded areas along R\u00edmac and Chill\u00f3n rivers were reported.\r\n\r\nThe scope of the map production is to generate a pre-event reference content, delineate the event impact and grade the damage, focusing on people and assets, with particular attention to schools in the metropolitan area  of northern Lima.\r\n Reference map (Overview A1) Land Use / Land Cover map (Overview A1) Landslide extent delineation (Overview A1) Flood extent delineation (Overview A1) Damage assessment - Flood (Overview A1)"
-    },
-    {
         "code": "EMSN033",
         "countries": [
             {
@@ -17418,6 +17396,28 @@
         "n_products": 68,
         "search_snippet": "",
         "past_items_search_text": "EMSN033 is a satellite based conflict damage assessment of three selected areas of interest (AOIs) in Libya: Benghazi city, Benghazi\u00b4s Aerodrome (El Benina) and Al-Jawf.\r\n\r\nThe scope of the map production was to generate general reference content of the pre-event situation, including administrative boundaries, road network, urban land use classification, urban sprawl and urban expansion velocity analysis.\r\n\r\nThe core users of the map are the Foreign Policy Instruments (FPI) of the European Commi Urban velocity map (Overview A1) Urban velocity map (Overview A1) Urban Sprawl map (Overview A1) Urban Sprawl map (Overview A1) Urban Sprawl map (Overview A1) Reference map (Overview A1) Reference map (Overview A1) Reference map (Overview A1) Reference map (Detail B2) Reference map (Detail B2)"
+    },
+    {
+        "code": "EMSN038",
+        "countries": [
+            {
+                "short_name": "Peru"
+            }
+        ],
+        "category": {
+            "slug": "flood",
+            "name": "Flood"
+        },
+        "name": "Post-disaster situation analyses of flood and landslides in Lima, Peru",
+        "centroid": "POINT (-76.95929999999998 -11.886920000000007)",
+        "activationTime": "2017-03-08T01:00:00",
+        "lastUpdate": "2026-01-20T09:57:00.365888",
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 5,
+        "search_snippet": "Post-disaster situation analyses of the flood that occurred in mid-March 2017 in Lima, Peru. Heavy rains affected nearly all of Peru leading to catastrophic flooding and landslides. In northern Lima, flooded areas along R\u00edmac and Chill\u00f3n rivers were reported.\n\nThe scope of the map production is t...",
+        "past_items_search_text": "Post-disaster situation analyses of the flood that occurred in mid-March 2017 in Lima, Peru. Heavy rains affected nearly all of Peru leading to catastrophic flooding and landslides. In northern Lima, flooded areas along R\u00edmac and Chill\u00f3n rivers were reported.\r\n\r\nThe scope of the map production is to generate a pre-event reference content, delineate the event impact and grade the damage, focusing on people and assets, with particular attention to schools in the metropolitan area  of northern Lima.\r\n Reference map (Overview A1) Land Use / Land Cover map (Overview A1) Landslide extent delineation (Overview A1) Flood extent delineation (Overview A1) Damage assessment - Flood (Overview A1)"
     },
     {
         "code": "EMSR197",
@@ -17552,28 +17552,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN032",
-        "countries": [
-            {
-                "short_name": "Portugal"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Forest fire damage assessment, Portugal",
-        "centroid": "POINT (-8.21612 40.898399999999995)",
-        "activationTime": "2016-10-17T01:00:00",
-        "lastUpdate": "2026-01-20T09:56:25.083357",
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 120,
-        "search_snippet": "The scope of the service request EMSN032 is to generate damage delineation and grading maps of 41 different forest fires in mainland Portugal that occurred in July and August 2016. The affected area had an overall extent of 887 km\u00b2.\r\n\r\nThe service consists of detailed reference maps and damage de...",
-        "past_items_search_text": "The scope of the service request EMSN032 is to generate damage delineation and grading maps of 41 different forest fires in mainland Portugal that occurred in July and August 2016. The affected area had an overall extent of 887 km\u00b2.\r\n\r\nThe service consists of detailed reference maps and damage delineation and grading. Additionally, assessment of post-event slope stability, erosion and accessibility to the affected areas were requested. All layers were produced at the cartographic scale of 1:25,0 Reference map Assessment of Access Erosion Risk Fire Delineation and Grading Landslide Risk"
-    },
-    {
         "code": "EMSN030",
         "countries": [
             {
@@ -17594,6 +17572,28 @@
         "n_products": 40,
         "search_snippet": "",
         "past_items_search_text": "EMSN030 was activated by the National Directorate General for Disaster Management, Hungary, on behalf of the EUCPT (Scoping Mission in Solotvyno salt mine, Ukraine) on 12/7/2016. The crisis related to the structural deterioration of old salt mines due to flooding of mine shafts and subsequent contamination of the Tisza River. Underground cavities and sinkholes emerged, threatening the local population, as well as industrial buildings and engineering systems.\r\n\r\nIn order to monitor the ground def Current Trends Map - Sinkhole and Landslides Risk Map Current Trends Map - Sinkhole and Landslides Risk Map (Details, Tile 1004) Current Trends Map - Sinkhole and Landslides Risk Map (Details, Tile 1003) Current Trends Map - Sinkhole and Landslides Risk Map (Details, Tile 1002) Current Trends Map - Sinkhole and Landslides Risk Map (Details, Tile 1001) Current Trends, Period: 2016-2017 Map - Ground Deformation Dynamics Current Trends, Period: 2016-2017 Map - Ground Deformation Dynamics (Details, Tile 1004) Current Trends, Period: 2016-2017 Map - Ground Deformation Dynamics (Details, Tile 1003) Current Trends, Period: 2016-2017 Map - Ground Deformation Dynamics (Details, Tile 1002) Current Trends, Period: 2016-2017 Map - Ground Deformation Dynamics (Details, Tile 1001)"
+    },
+    {
+        "code": "EMSN032",
+        "countries": [
+            {
+                "short_name": "Portugal"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Forest fire damage assessment, Portugal",
+        "centroid": "POINT (-8.21612 40.898399999999995)",
+        "activationTime": "2016-10-17T01:00:00",
+        "lastUpdate": "2026-01-20T09:56:25.083357",
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 120,
+        "search_snippet": "The scope of the service request EMSN032 is to generate damage delineation and grading maps of 41 different forest fires in mainland Portugal that occurred in July and August 2016. The affected area had an overall extent of 887 km\u00b2.\r\n\r\nThe service consists of detailed reference maps and damage de...",
+        "past_items_search_text": "The scope of the service request EMSN032 is to generate damage delineation and grading maps of 41 different forest fires in mainland Portugal that occurred in July and August 2016. The affected area had an overall extent of 887 km\u00b2.\r\n\r\nThe service consists of detailed reference maps and damage delineation and grading. Additionally, assessment of post-event slope stability, erosion and accessibility to the affected areas were requested. All layers were produced at the cartographic scale of 1:25,0 Reference map Assessment of Access Erosion Risk Fire Delineation and Grading Landslide Risk"
     },
     {
         "code": "EMSR188",
@@ -18061,28 +18061,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN025",
-        "countries": [
-            {
-                "short_name": "Greece"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Forest fire damage assessment \u2013 Planning and Recovery",
-        "centroid": "POINT (25.579999999999995 38.34999999999999)",
-        "activationTime": "2016-06-13T01:00:00",
-        "lastUpdate": "2026-01-20T09:54:14.348681",
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 6,
-        "n_products": 84,
-        "search_snippet": "This activation focuses on damage delineation and grading maps for selected forest fires in Greece in the summer of 2015. Additionally, loss assessment and risk assessment products (landslide/erosion and flash flood) including, mitigation and recovery measures are analysed. Key assets (infrastruc...",
-        "past_items_search_text": "This activation focuses on damage delineation and grading maps for selected forest fires in Greece in the summer of 2015. Additionally, loss assessment and risk assessment products (landslide/erosion and flash flood) including, mitigation and recovery measures are analysed. Key assets (infrastructure, environment, human life, economic sustainability, etc.) are also identified and related with the probability and severity (impact) of potential (secondary) hazards.\r\n\r\nThe activation was triggered  Assets and Trans. Networks at Risk Map - Flood Risk Assessment (Details, Tile 6011) Soil Loss Map - Erosion Hazard Zones (Details, Tile 6011) Assets and Trans. Networks at Risk Map - Landslide Risk Assessment (Details, Tile 6011) Land Use and Land Cover Map - Multiple Natural Hazard Risk Assessment (Details, Tile 6011) Biomass Loss Assessment Map - Fire Damage Assessment (Details, Tile 6011) Delineation and Grading Map - Fire Damage Assessment (Details, Tile 6011) Reference Map - Multiple Natural Hazard Risk Assessment (Details, Tile 6011) Assets and Trans. Networks at Risk Map - Flood Risk Assessment (Details, Tile 5010) Soil Loss Map - Erosion Hazard Zones (Details, Tile 5010) Assets and Trans. Networks at Risk Map - Landslide Risk Assessment (Details, Tile 5010)"
-    },
-    {
         "code": "EMSN029",
         "countries": [
             {
@@ -18103,6 +18081,28 @@
         "n_products": 8,
         "search_snippet": "Two areas of Special Areas of Conservation: Sierra de Espadn and Curs Alt del riu Millars were hit by a forest fire in July 2015, in the Montn and Caudiel municipalities of the region of Valencia. The analysis of the damage degree and landslide and erosion risk is of key importance for the spatia...",
         "past_items_search_text": "Two areas of Special Areas of Conservation: Sierra de Espadn and Curs Alt del riu Millars were hit by a forest fire in July 2015, in the Montn and Caudiel municipalities of the region of Valencia. The analysis of the damage degree and landslide and erosion risk is of key importance for the spatial and temporal planning of the post-event restoration work. The scope of the activation included:\r\n\r\nDelineation/grading\r\n\r\nLoss assessment\r\n\r\n[Image: 10_56_00.png]\r\n\r\nLandslide risk\r\n\r\nErosion risk\r\n\r\n[ Reference map (Detail A1) Possible New Risk (Detail A1) Mitigation Measures: Stack and Felling (Detail A1) Mitigation Measures: Regeneration and Hydro (Detail A1) Loss assessment (Detail A1) LandSlide Risk (Detail A1) Erosion Risk (Detail A1) Damage delineation and grading (Detail A1)"
+    },
+    {
+        "code": "EMSN025",
+        "countries": [
+            {
+                "short_name": "Greece"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Forest fire damage assessment \u2013 Planning and Recovery",
+        "centroid": "POINT (25.579999999999995 38.34999999999999)",
+        "activationTime": "2016-06-13T01:00:00",
+        "lastUpdate": "2026-01-20T09:54:14.348681",
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 6,
+        "n_products": 84,
+        "search_snippet": "This activation focuses on damage delineation and grading maps for selected forest fires in Greece in the summer of 2015. Additionally, loss assessment and risk assessment products (landslide/erosion and flash flood) including, mitigation and recovery measures are analysed. Key assets (infrastruc...",
+        "past_items_search_text": "This activation focuses on damage delineation and grading maps for selected forest fires in Greece in the summer of 2015. Additionally, loss assessment and risk assessment products (landslide/erosion and flash flood) including, mitigation and recovery measures are analysed. Key assets (infrastructure, environment, human life, economic sustainability, etc.) are also identified and related with the probability and severity (impact) of potential (secondary) hazards.\r\n\r\nThe activation was triggered  Assets and Trans. Networks at Risk Map - Flood Risk Assessment (Details, Tile 6011) Soil Loss Map - Erosion Hazard Zones (Details, Tile 6011) Assets and Trans. Networks at Risk Map - Landslide Risk Assessment (Details, Tile 6011) Land Use and Land Cover Map - Multiple Natural Hazard Risk Assessment (Details, Tile 6011) Biomass Loss Assessment Map - Fire Damage Assessment (Details, Tile 6011) Delineation and Grading Map - Fire Damage Assessment (Details, Tile 6011) Reference Map - Multiple Natural Hazard Risk Assessment (Details, Tile 6011) Assets and Trans. Networks at Risk Map - Flood Risk Assessment (Details, Tile 5010) Soil Loss Map - Erosion Hazard Zones (Details, Tile 5010) Assets and Trans. Networks at Risk Map - Landslide Risk Assessment (Details, Tile 5010)"
     },
     {
         "code": "EMSN028",
@@ -19889,28 +19889,6 @@
         "past_items_search_text": "Doboj Delineation Balatun Delineation Balatun Delineation Balatun Delineation Balatun Delineation Balatun Reference Balatun Reference Doboj Delineation Doboj Delineation Doboj Delineation Orasje Delineation Orasje Delineation Brcko Delineation Bijeljina Delineation Doboj Delineation Doboj Delineation Doboj Delineation Doboj Reference Doboj Delineation Doboj Delineation"
     },
     {
-        "code": "EMSR085",
-        "countries": [
-            {
-                "short_name": "Luxembourg"
-            }
-        ],
-        "category": {
-            "slug": "flood",
-            "name": "Flood"
-        },
-        "name": "LuModExercise - Flood in Mertert- Luxembourg",
-        "centroid": "POINT (6.47 49.69)",
-        "activationTime": "2014-05-07T11:30:00",
-        "lastUpdate": "2014-05-28T12:18:00",
-        "drmPhase": "response",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 2,
-        "search_snippet": "",
-        "past_items_search_text": "Mertert Reference Mertert Reference"
-    },
-    {
         "code": "EMSR084",
         "countries": [
             {
@@ -19931,6 +19909,28 @@
         "n_products": 2,
         "search_snippet": "",
         "past_items_search_text": "Echternach Reference Echternach Reference"
+    },
+    {
+        "code": "EMSR085",
+        "countries": [
+            {
+                "short_name": "Luxembourg"
+            }
+        ],
+        "category": {
+            "slug": "flood",
+            "name": "Flood"
+        },
+        "name": "LuModExercise - Flood in Mertert- Luxembourg",
+        "centroid": "POINT (6.47 49.69)",
+        "activationTime": "2014-05-07T11:30:00",
+        "lastUpdate": "2014-05-28T12:18:00",
+        "drmPhase": "response",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 2,
+        "search_snippet": "",
+        "past_items_search_text": "Mertert Reference Mertert Reference"
     },
     {
         "code": "EMSR083",
