@@ -3493,12 +3493,12 @@
         "name": "Flood Risk Assessment in Tazlau River, Romania",
         "centroid": "POINT (26.71429 46.40475)",
         "activationTime": "2024-05-07T00:00:00",
-        "lastUpdate": "2025-02-18T17:27:34.062042",
+        "lastUpdate": "2026-06-24T09:05:32.273818",
         "drmPhase": "preparedness",
-        "closed": true,
+        "closed": false,
         "n_aois": 1,
         "n_products": 4,
-        "search_snippet": "",
+        "search_snippet": "Risk and Recovery Mapping is activated to support the general Inspectorate for Emergency Situations of Romania and the Romanian Water National Administration in the planning and management of civil protection activities by providing flood risk assessment in the Tazlau river basin.",
         "past_items_search_text": ""
     },
     {
@@ -9173,28 +9173,6 @@
         "past_items_search_text": "Aijazi First Estimate"
     },
     {
-        "code": "EMSN102",
-        "countries": [
-            {
-                "short_name": "Spain"
-            }
-        ],
-        "category": {
-            "slug": "fire",
-            "name": "Wildfire"
-        },
-        "name": "Wildfires in Huelva, Spain",
-        "centroid": "POINT (-6.61875 37.43943)",
-        "activationTime": "2021-07-27T02:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural are...",
-        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural areas of Villarrasa, in the Huelva province (Andalucia region, Southern Spain) on 24th July 2021. A total of 15 aircrafts and 120 forest firefighters fought against the propagation of the wildfire which, ho Fire Delineation and Grading"
-    },
-    {
         "code": "EMSN103",
         "countries": [
             {
@@ -9215,6 +9193,28 @@
         "n_products": 4,
         "search_snippet": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and hum...",
         "past_items_search_text": "The CEMS Risk and Recovery Standard (STD) has been activated by DG ECHO to get updated information about the Internally Displaced Person (IDP) site named PK-3 and located in the proximity of Bria, Central African Republic (CAR). Since 2013, the CAR has been affected by political, security and humanitarian crisis linked to armed conflicts, conflicts between communities, or tensions between farmers and breeders in some areas. This situation of instability in the country has dramatically worsened d P19-Population displacement location P19-MONIT01-Overview Map P19-Overview Map P19-Population displacement location-MONIT01"
+    },
+    {
+        "code": "EMSN102",
+        "countries": [
+            {
+                "short_name": "Spain"
+            }
+        ],
+        "category": {
+            "slug": "fire",
+            "name": "Wildfire"
+        },
+        "name": "Wildfires in Huelva, Spain",
+        "centroid": "POINT (-6.61875 37.43943)",
+        "activationTime": "2021-07-27T02:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural are...",
+        "past_items_search_text": "The CEMS Risk and Recovery Standard (RRM STD) has been activated by the Spanish General Directorate of Civil Protection and Emergencies (CENEM) on behalf of the Ministry of Interior of Spain, D. G. Guardia Civil and Jefatura del Seprona, following the forest fire that broke out in the natural areas of Villarrasa, in the Huelva province (Andalucia region, Southern Spain) on 24th July 2021. A total of 15 aircrafts and 120 forest firefighters fought against the propagation of the wildfire which, ho Fire Delineation and Grading"
     },
     {
         "code": "EMSR523",
@@ -9660,28 +9660,6 @@
         "past_items_search_text": "Schinos Grading Schinos Delineation Schinos Delineation Schinos First Estimate"
     },
     {
-        "code": "EMSN091",
-        "countries": [
-            {
-                "short_name": "Philippines"
-            }
-        ],
-        "category": {
-            "slug": "other",
-            "name": "Other"
-        },
-        "name": "Assessing changes in subsidence rates in the low Pampanga river basin and Manila area, Philippines",
-        "centroid": "POINT (120.7985 14.78801)",
-        "activationTime": "2021-04-30T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 1,
-        "n_products": 1,
-        "search_snippet": "",
-        "past_items_search_text": "The service was activated by a request from the Federal Office of Civil Protection and Disaster Assistance (BBK) on behalf of Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) \u2013 authorized user, and the University of Philippines \u2013 local user. Several sources suggest that the Manila NCR and lower Pampanga river basin, Philippines, has been affected by ground subsidence phenomena impacting settlements and increasing flood risk.\n\nThe EMS service aims to provide evidence of ground motion Ground Deformation \u2013 Overview key map (Overview A1)"
-    },
-    {
         "code": "EMSN093",
         "countries": [
             {
@@ -9702,6 +9680,28 @@
         "n_products": 6,
         "search_snippet": "EMSN093 was activated to demonstrate that satellite-derived data can be used to study small-medium sized rockfalls, as the one occurred in Valle Gran Rey of the La Gomera island (Canary Islands, Spain) on the 14thof November 2021. Moreover, the results will support local authorities by offering i...",
         "past_items_search_text": "EMSN093 was activated to demonstrate that satellite-derived data can be used to study small-medium sized rockfalls, as the one occurred in Valle Gran Rey of the La Gomera island (Canary Islands, Spain) on the 14thof November 2021. Moreover, the results will support local authorities by offering information on the potential hazard of the area, to carry out the adequate management plans.\r\n\r\nThe products resulting from this activation are:\r\n\r\nProduct 2\r\n\r\nPre-event DEM extracted using photogrammetr Rockfall hazard. Overview key map (Overview A1) Rockfall asset and population risk (low season). Overview key map (Overview A1) Rockfall asset and population risk (high season). Overview key map (Overview A1) Rockfall asset and population exposure. Overview key map (Overview A1) Reference. Overview key map (Overview A1) Ground Deformation. Overview key map (Overview A1)"
+    },
+    {
+        "code": "EMSN091",
+        "countries": [
+            {
+                "short_name": "Philippines"
+            }
+        ],
+        "category": {
+            "slug": "other",
+            "name": "Other"
+        },
+        "name": "Assessing changes in subsidence rates in the low Pampanga river basin and Manila area, Philippines",
+        "centroid": "POINT (120.7985 14.78801)",
+        "activationTime": "2021-04-30T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 1,
+        "n_products": 1,
+        "search_snippet": "",
+        "past_items_search_text": "The service was activated by a request from the Federal Office of Civil Protection and Disaster Assistance (BBK) on behalf of Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ) \u2013 authorized user, and the University of Philippines \u2013 local user. Several sources suggest that the Manila NCR and lower Pampanga river basin, Philippines, has been affected by ground subsidence phenomena impacting settlements and increasing flood risk.\n\nThe EMS service aims to provide evidence of ground motion Ground Deformation \u2013 Overview key map (Overview A1)"
     },
     {
         "code": "EMSN095",
@@ -11727,28 +11727,6 @@
         "past_items_search_text": ""
     },
     {
-        "code": "EMSN066",
-        "countries": [
-            {
-                "short_name": "Iran"
-            }
-        ],
-        "category": {
-            "slug": "flood",
-            "name": "Flood"
-        },
-        "name": "Flood delineation and flood damage assessment, Iran",
-        "centroid": "POINT (58.96228 25.99307)",
-        "activationTime": "2020-04-09T01:00:00",
-        "lastUpdate": null,
-        "drmPhase": "recovery",
-        "closed": true,
-        "n_aois": 3,
-        "n_products": 11,
-        "search_snippet": "",
-        "past_items_search_text": "The scope of the service request EMSN-066 is to delineate the extent and assess damage of 9 to 11 January 2020 flood event, in South-East Iran. As predicted by Copernicus EMS service GloFAS, days of heavy rain from 9 to 11 January 2020 caused severe flooding in southern Iran, in Sistan and Baluchestan, Hormozgan and south of Kerman provinces. Flooding has blocked roads and damaged houses, bridges, crops and infrastructure. Dozens of areas have been left isolated after roads were damaged or block Reservoir and dam change detection (Overview A3) Reference map (Overview A3) Flood delineation (Overview A3) Damage assessment (Overview A3) Reference map (Overview A2) Flood delineation (Overview A2) Damage assessment (Overview A2) Reservoir and dam change detection (Overview A1) Reference map (Overview A1) Flood delineation (Overview A1)"
-    },
-    {
         "code": "EMSN071",
         "countries": [
             {
@@ -11769,6 +11747,28 @@
         "n_products": 4,
         "search_snippet": "The scope of the service request EMSN-071 is to support the fire department and administration of the City of Arnsberg (Hochsauerland County, State North Rhine-Westphalia, Germany), with designing pre-event preventive measures, as well as incident coordination, in regards of wildfires that could...",
         "past_items_search_text": "The scope of the service request EMSN-071 is to support the fire department and administration of the City of Arnsberg (Hochsauerland County, State North Rhine-Westphalia, Germany), with designing pre-event preventive measures, as well as incident coordination, in regards of wildfires that could hit this territory.\r\n\r\nMore than 63% of the town\u2019s area is covered by forest, including several large protected areas; forest plays an important economic role in both tourism and the timber-processing busi Reference map (Overview A1) Land Use Land Cover map (Overview A1) Pre-disaster forest fire hazard (Overview A1) Pre-disaster forest fire exposure (Overview A1)"
+    },
+    {
+        "code": "EMSN066",
+        "countries": [
+            {
+                "short_name": "Iran"
+            }
+        ],
+        "category": {
+            "slug": "flood",
+            "name": "Flood"
+        },
+        "name": "Flood delineation and flood damage assessment, Iran",
+        "centroid": "POINT (58.96228 25.99307)",
+        "activationTime": "2020-04-09T01:00:00",
+        "lastUpdate": null,
+        "drmPhase": "recovery",
+        "closed": true,
+        "n_aois": 3,
+        "n_products": 11,
+        "search_snippet": "",
+        "past_items_search_text": "The scope of the service request EMSN-066 is to delineate the extent and assess damage of 9 to 11 January 2020 flood event, in South-East Iran. As predicted by Copernicus EMS service GloFAS, days of heavy rain from 9 to 11 January 2020 caused severe flooding in southern Iran, in Sistan and Baluchestan, Hormozgan and south of Kerman provinces. Flooding has blocked roads and damaged houses, bridges, crops and infrastructure. Dozens of areas have been left isolated after roads were damaged or block Reservoir and dam change detection (Overview A3) Reference map (Overview A3) Flood delineation (Overview A3) Damage assessment (Overview A3) Reference map (Overview A2) Flood delineation (Overview A2) Damage assessment (Overview A2) Reservoir and dam change detection (Overview A1) Reference map (Overview A1) Flood delineation (Overview A1)"
     },
     {
         "code": "EMSR434",
