@@ -35,7 +35,7 @@
                 "interval": [
                     [
                         "2024-03-01T00:00:00Z",
-                        "2026-10-10T00:00:00Z"
+                        "2026-10-17T00:00:00Z"
                     ]
                 ]
             }
@@ -68,12 +68,12 @@
             }
         },
         "published": "2024-10-21T00:00:00Z",
-        "updated": "2026-10-11T00:00:00Z",
+        "updated": "2026-10-18T00:00:00Z",
         "sci:doi": "10.24381/93910310",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:16:34.507890+00:00"
+            "timestamp": "2026-10-18T01:16:40.386254+00:00"
         },
         "cads:fair": 92,
         "cads:message": null,
@@ -153,7 +153,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:16:36.516585+00:00"
+            "timestamp": "2026-10-18T01:17:11.226256+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -234,7 +234,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:19:19.683149+00:00"
+            "timestamp": "2026-10-18T01:17:13.221161+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -314,7 +314,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:18:25.126879+00:00"
+            "timestamp": "2026-10-18T01:18:47.908457+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -359,7 +359,7 @@
                 "interval": [
                     [
                         "2024-01-17T00:00:00Z",
-                        "2026-10-10T00:00:00Z"
+                        "2026-10-17T00:00:00Z"
                     ]
                 ]
             }
@@ -397,7 +397,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:18.861191+00:00"
+            "timestamp": "2026-10-18T01:20:17.065903+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -478,7 +478,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:50.907182+00:00"
+            "timestamp": "2026-10-18T01:21:33.114107+00:00"
         },
         "cads:fair": 92,
         "cads:message": null,
@@ -521,7 +521,7 @@
                 "interval": [
                     [
                         "2003-01-01T00:00:00Z",
-                        "2026-10-10T00:00:00Z"
+                        "2026-10-17T00:00:00Z"
                     ]
                 ]
             }
@@ -558,8 +558,8 @@
         "sci:doi": "10.24381/a05253c7",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
-            "status": "warning",
-            "timestamp": "2026-10-11T02:19:29.141831+00:00"
+            "status": "available",
+            "timestamp": "2026-10-18T01:21:39.200239+00:00"
         },
         "cads:fair": 88,
         "cads:message": {
@@ -649,7 +649,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:25.110794+00:00"
+            "timestamp": "2026-10-18T01:21:19.279532+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -729,7 +729,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:54.514849+00:00"
+            "timestamp": "2026-10-18T01:21:29.747942+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -775,7 +775,7 @@
                 "interval": [
                     [
                         "2015-01-01T00:00:00Z",
-                        "2026-10-10T00:00:00Z"
+                        "2026-10-17T00:00:00Z"
                     ]
                 ]
             }
@@ -813,7 +813,87 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:35.694941+00:00"
+            "timestamp": "2026-10-18T01:21:34.345096+00:00"
+        },
+        "cads:fair": 88,
+        "cads:message": null,
+        "cads:update_frequency": null
+    },
+    {
+        "type": "Collection",
+        "id": "cams-global-radiative-forcing-auxilliary-variables",
+        "stac_version": "1.1.0",
+        "title": "CAMS global radiative forcing - auxilliary variables",
+        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2017-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
+            }
+        },
+        "published": "2021-02-17T00:00:00Z",
+        "updated": "2021-02-17T00:00:00Z",
+        "sci:doi": "10.24381/a75a8824",
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-10-18T01:22:02.866256+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -896,87 +976,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:40.722310+00:00"
-        },
-        "cads:fair": 88,
-        "cads:message": null,
-        "cads:update_frequency": null
-    },
-    {
-        "type": "Collection",
-        "id": "cams-global-radiative-forcing-auxilliary-variables",
-        "stac_version": "1.1.0",
-        "title": "CAMS global radiative forcing - auxilliary variables",
-        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2017-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
-            }
-        },
-        "published": "2021-02-17T00:00:00Z",
-        "updated": "2021-02-17T00:00:00Z",
-        "sci:doi": "10.24381/a75a8824",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-10-11T02:20:46.690112+00:00"
+            "timestamp": "2026-10-18T01:22:00.258348+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -1056,7 +1056,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:40.401527+00:00"
+            "timestamp": "2026-10-18T01:21:43.169068+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -1100,8 +1100,8 @@
             "temporal": {
                 "interval": [
                     [
-                        "2023-10-05T00:00:00Z",
-                        "2026-10-11T00:00:00Z"
+                        "2023-10-12T00:00:00Z",
+                        "2026-10-18T00:00:00Z"
                     ]
                 ]
             }
@@ -1139,7 +1139,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "down",
-            "timestamp": "2026-10-11T01:36:42.023740+00:00"
+            "timestamp": "2026-10-18T01:27:38.365832+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -1181,7 +1181,7 @@
                 "interval": [
                     [
                         "2004-01-01T00:00:00Z",
-                        "2026-10-10T00:00:00Z"
+                        "2026-10-17T00:00:00Z"
                     ]
                 ]
             }
@@ -1219,7 +1219,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:20:29.468354+00:00"
+            "timestamp": "2026-10-18T01:20:55.319725+00:00"
         },
         "cads:fair": 92,
         "cads:message": null,
@@ -1300,7 +1300,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-11T02:21:06.717982+00:00"
+            "timestamp": "2026-10-18T01:21:52.882467+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
