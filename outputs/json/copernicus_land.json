@@ -548,6 +548,143 @@
         "version": null
     },
     {
+        "@id": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-water-layer",
+        "@type": "DataSet",
+        "CreationDate": "2026-10-21T10:19:04+02:00",
+        "Creator": "ischueug",
+        "Date": "2026-10-21T10:29:27+02:00",
+        "Description": "Provides at pan-European level and on a 3-annual basis detailed information about the presence of inland surface water. The product is based on multi-temporal (7 years time series) optical and radar high-resolution observations from Sentinel-2 and Sentinel-1, respectively. The water classification is based on two classes: permanent and temporary water. The layer is available at 10 m x 10 m and 100 m x 100 m spatial resolution for the reference years 2021 and 2024.",
+        "EffectiveDate": "2026-10-21T10:29:27+02:00",
+        "ExpirationDate": "None",
+        "Language": "",
+        "ModificationDate": "2026-10-21T13:55:44+02:00",
+        "Subject": [
+            "Water Extent"
+        ],
+        "Title": "Water Layer 2016-present (raster 10 m and 100 m), Europe, 3-yearly",
+        "TranslationGroup": "637b8f3428fe46dbaba6c8340f2cf8c3",
+        "Type": "DataSet",
+        "UID": "3b01b2ac37ae4f11b448565255845edf",
+        "author_name": null,
+        "cmf_uid": 2354,
+        "commentators": [],
+        "created": "2026-10-21T08:19:04+00:00",
+        "description": "Provides at pan-European level and on a 3-annual basis detailed information about the presence of inland surface water. The product is based on multi-temporal (7 years time series) optical and radar high-resolution observations from Sentinel-2 and Sentinel-1, respectively. The water classification is based on two classes: permanent and temporary water. The layer is available at 10 m x 10 m and 100 m x 100 m spatial resolution for the reference years 2021 and 2024.",
+        "downloadable_dataset": true,
+        "effective": "2026-10-21T08:29:27+00:00",
+        "end": null,
+        "exclude_from_nav": false,
+        "expires": "2499-12-30T22:00:00+00:00",
+        "external_source_url": null,
+        "getIcon": true,
+        "getId": "high-resolution-water-layer",
+        "getObjSize": "46.1 KB",
+        "getPath": "/Plone/en/products/water-bodies/high-resolution-water-layer",
+        "getRemoteUrl": null,
+        "getURL": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-water-layer",
+        "hasPreviewImage": null,
+        "head_title": null,
+        "id": "high-resolution-water-layer",
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-400-ef32a782ecd4b9fa070e52d807460529.png",
+                    "filename": "thumbnail_WL_HR.png",
+                    "height": 400,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-619751201e163a751eb9c36a2a2c2cc4.png",
+                            "height": 80,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-05584a3f46c348472e3af1a197e538d4.png",
+                            "height": 32,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-601afdeaaaf9fc7d3a23941b2c9e6262.png",
+                            "height": 60,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-915af3835b1ad7eae5df8e0e952df928.png",
+                            "height": 200,
+                            "width": 200
+                        },
+                        "preview": {
+                            "download": "@@images/image-400-8fd7dc87b015e6ad4d760f91da4581c1.png",
+                            "height": 400,
+                            "width": 400
+                        },
+                        "small": {
+                            "download": "@@images/image-48-b1a841c3df56682ca9b5415f2ae917d4.png",
+                            "height": 48,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-56ec54d5bfa87df60e352e3caa0f4f2f.png",
+                            "height": 128,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-e04edbe82c65f084a6ef0588ca54da59.png",
+                            "height": 64,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-9fe0c1c8493f12d262352923fcd32613.png",
+                            "height": 24,
+                            "width": 24
+                        }
+                    },
+                    "size": 42527,
+                    "width": 400
+                }
+            ]
+        },
+        "in_response_to": null,
+        "is_folderish": true,
+        "last_comment_date": null,
+        "latitude": null,
+        "listCreators": [
+            "ischueug"
+        ],
+        "location": null,
+        "longitude": null,
+        "mapviewer_viewservice": null,
+        "meta_type": "Dexterity Container",
+        "mime_type": "text/plain",
+        "modified": "2026-10-21T11:55:44+00:00",
+        "nav_title": null,
+        "ondemand": null,
+        "portal_type": "DataSet",
+        "procurement_no": null,
+        "publication_date": null,
+        "review_state": "published",
+        "start": null,
+        "submission_deadline": null,
+        "sync_uid": null,
+        "taxonomy_family": [],
+        "taxonomy_faqcategories": [],
+        "taxonomy_technical_library_categorization": [],
+        "taxonomy_use_case_spatial_coverage": [],
+        "taxonomy_user_profile_affiliation": [],
+        "taxonomy_user_profile_country": [],
+        "taxonomy_user_profile_sector_of_activity": [],
+        "taxonomy_user_profile_thematic_activity": [],
+        "taxonomy_userprofileinstitutionaldomain": [],
+        "taxonomy_userprofileproductuseintention": [],
+        "taxonomy_userprofileprofessionalthematicdomain": [],
+        "title": "Water Layer 2016-present (raster 10 m and 100 m), Europe, 3-yearly",
+        "total_comments": 0,
+        "type_title": "DataSet",
+        "url": null,
+        "version": null
+    },
+    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/dominant-leaf-type-2018-present-raster-10-m-europe-yearly",
         "@type": "DataSet",
         "CreationDate": "2025-02-28T12:05:28+02:00",
@@ -4954,7 +5091,7 @@
         "EffectiveDate": "2025-04-23T09:16:47+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-23T14:10:11+02:00",
+        "ModificationDate": "2026-10-21T14:03:17+02:00",
         "Subject": [
             "River and Lake Ice Extent"
         ],
@@ -4975,7 +5112,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "water-and-ice-cover-raster-20-m-60-m-europe-daily",
-        "getObjSize": "42.0 KB",
+        "getObjSize": "42.3 KB",
         "getPath": "/Plone/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily",
@@ -5054,7 +5191,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-23T12:10:11+00:00",
+        "modified": "2026-10-21T12:03:17+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -17993,7 +18130,7 @@
         "EffectiveDate": "2020-06-04T15:10:00+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-28T10:38:05+02:00",
+        "ModificationDate": "2026-10-21T13:58:37+02:00",
         "Subject": [
             "Snow Cover Extent"
         ],
@@ -18014,7 +18151,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "fractional-snow-cover",
-        "getObjSize": "69.3 KB",
+        "getObjSize": "65.5 KB",
         "getPath": "/Plone/en/products/snow/fractional-snow-cover",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
@@ -18093,7 +18230,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-28T08:38:05+00:00",
+        "modified": "2026-10-21T11:58:37+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -18130,7 +18267,7 @@
         "EffectiveDate": "2022-01-21T13:07:02+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-28T10:40:53+02:00",
+        "ModificationDate": "2026-10-21T13:59:08+02:00",
         "Subject": [
             "Snow Cover Extent"
         ],
@@ -18151,7 +18288,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "high-resolution-gap-filled-fractional-snow-cover",
-        "getObjSize": "80.9 KB",
+        "getObjSize": "76.8 KB",
         "getPath": "/Plone/en/products/snow/high-resolution-gap-filled-fractional-snow-cover",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/snow/high-resolution-gap-filled-fractional-snow-cover",
@@ -18230,7 +18367,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-28T08:40:53+00:00",
+        "modified": "2026-10-21T11:59:08+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -18267,7 +18404,7 @@
         "EffectiveDate": "2022-01-21T13:07:03+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-28T11:14:48+02:00",
+        "ModificationDate": "2026-10-21T14:00:37+02:00",
         "Subject": [
             "Snow Cover Extent"
         ],
@@ -18288,7 +18425,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "high-resolution-persistent-snow-area",
-        "getObjSize": "26.4 KB",
+        "getObjSize": "25.9 KB",
         "getPath": "/Plone/en/products/snow/high-resolution-persistent-snow-area",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/snow/high-resolution-persistent-snow-area",
@@ -18367,7 +18504,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-28T09:14:48+00:00",
+        "modified": "2026-10-21T12:00:37+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -30053,7 +30190,7 @@
         "EffectiveDate": "2026-01-07T14:13:08+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-23T14:09:59+02:00",
+        "ModificationDate": "2026-10-21T14:02:37+02:00",
         "Subject": [
             "River and Lake Ice Extent"
         ],
@@ -30074,7 +30211,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "high-resolution-ice-cover-duration",
-        "getObjSize": "23.7 KB",
+        "getObjSize": "23.6 KB",
         "getPath": "/Plone/en/products/water-bodies/high-resolution-ice-cover-duration",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-ice-cover-duration",
@@ -30153,7 +30290,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-23T12:09:59+00:00",
+        "modified": "2026-10-21T12:02:37+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -30190,7 +30327,7 @@
         "EffectiveDate": "2026-01-07T14:12:55+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-23T14:06:24+02:00",
+        "ModificationDate": "2026-10-21T14:01:29+02:00",
         "Subject": [
             "Water Extent"
         ],
@@ -30211,7 +30348,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "high-resolution-water-cover-duration",
-        "getObjSize": "16.0 KB",
+        "getObjSize": "15.9 KB",
         "getPath": "/Plone/en/products/water-bodies/high-resolution-water-cover-duration",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-water-cover-duration",
@@ -30285,7 +30422,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-23T12:06:24+00:00",
+        "modified": "2026-10-21T12:01:29+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -30459,7 +30596,7 @@
         "EffectiveDate": "2022-01-21T13:07:36+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-16T14:49:01+02:00",
+        "ModificationDate": "2026-10-23T14:30:17+02:00",
         "Subject": [],
         "Title": "Soil Water Index 2015-2025 (raster 1 km), Europe, daily \u2013 version 1 **SUPERSEDED**",
         "TranslationGroup": "d8fba1cc42ff4f65b090f67990bb4c0c",
@@ -30557,7 +30694,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/swi_europe_1km_daily_v1?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-16T12:49:01+00:00",
+        "modified": "2026-10-23T12:30:17+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -30594,7 +30731,7 @@
         "EffectiveDate": "2022-01-21T13:07:36+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-23T14:22:02+02:00",
+        "ModificationDate": "2026-10-23T14:38:17+02:00",
         "Subject": [],
         "Title": "Soil Water Index 2025-present (raster 1 km), Europe, daily \u2013 version 2",
         "TranslationGroup": "118897ee05254852846ba934002e5a19",
@@ -30692,7 +30829,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/swi_europe_1km_daily_v2?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-23T12:22:02+00:00",
+        "modified": "2026-10-23T12:38:17+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -32897,7 +33034,7 @@
         "EffectiveDate": "2022-01-21T13:07:03+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-09-28T11:03:31+02:00",
+        "ModificationDate": "2026-10-21T14:00:16+02:00",
         "Subject": [
             "Snow Cover Extent"
         ],
@@ -32918,7 +33055,7 @@
         "external_source_url": null,
         "getIcon": true,
         "getId": "high-resolution-snow-phenology",
-        "getObjSize": "35.9 KB",
+        "getObjSize": "30.5 KB",
         "getPath": "/Plone/en/products/snow/high-resolution-snow-phenology",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/snow/high-resolution-snow-phenology",
@@ -32997,7 +33134,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-09-28T09:03:31+00:00",
+        "modified": "2026-10-21T12:00:16+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",

@@ -35,7 +35,7 @@
                 "interval": [
                     [
                         "2024-03-01T00:00:00Z",
-                        "2026-10-17T00:00:00Z"
+                        "2026-10-24T00:00:00Z"
                     ]
                 ]
             }
@@ -68,12 +68,12 @@
             }
         },
         "published": "2024-10-21T00:00:00Z",
-        "updated": "2026-10-18T00:00:00Z",
+        "updated": "2026-10-25T00:00:00Z",
         "sci:doi": "10.24381/93910310",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:16:40.386254+00:00"
+            "timestamp": "2026-10-25T01:16:29.649832+00:00"
         },
         "cads:fair": 92,
         "cads:message": null,
@@ -153,7 +153,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:17:11.226256+00:00"
+            "timestamp": "2026-10-25T01:31:22.199883+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -234,7 +234,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:17:13.221161+00:00"
+            "timestamp": "2026-10-25T01:34:17.357860+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -314,7 +314,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:18:47.908457+00:00"
+            "timestamp": "2026-10-25T01:37:51.123727+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -359,7 +359,7 @@
                 "interval": [
                     [
                         "2024-01-17T00:00:00Z",
-                        "2026-10-17T00:00:00Z"
+                        "2026-10-24T00:00:00Z"
                     ]
                 ]
             }
@@ -397,7 +397,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:20:17.065903+00:00"
+            "timestamp": "2026-10-25T01:42:36.198260+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -478,7 +478,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:21:33.114107+00:00"
+            "timestamp": "2026-10-25T01:43:55.594613+00:00"
         },
         "cads:fair": 92,
         "cads:message": null,
@@ -521,7 +521,7 @@
                 "interval": [
                     [
                         "2003-01-01T00:00:00Z",
-                        "2026-10-17T00:00:00Z"
+                        "2026-10-24T00:00:00Z"
                     ]
                 ]
             }
@@ -558,8 +558,8 @@
         "sci:doi": "10.24381/a05253c7",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-10-18T01:21:39.200239+00:00"
+            "status": "warning",
+            "timestamp": "2026-10-25T01:42:02.917866+00:00"
         },
         "cads:fair": 88,
         "cads:message": {
@@ -573,6 +573,86 @@
             "show_date": true
         },
         "cads:update_frequency": null
+    },
+    {
+        "type": "Collection",
+        "id": "cams-global-ghg-reanalysis-egg4",
+        "stac_version": "1.1.0",
+        "title": "CAMS global greenhouse gas reanalysis (EGG4)",
+        "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset the CO2 fluxes from terrestrial vegetation are modelled in order to simulate the variability across a wide range of scales from diurnal to inter-annual. The CH4 chemical loss is represented by a climatological loss rate and the emissions at the surface are taken from a range of datasets.\nReanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of physics and chemistry. This principle, called data assimilation, is based on the method used by numerical weather prediction centres and air quality forecasting centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way to allow for the provision of a dataset spanning back more than a decade. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product.\nThe assimilation system is able to estimate biases between observations and to sift good-quality data from poor data. The atmosphere model allows for estimates at locations where data coverage is low or for atmospheric pollutants for which no direct observations are available. The provision of estimates at each grid point around the globe for each regular output time, over a long period, always using the same format, makes reanalysis a very convenient and popular dataset to work with.\nThe observing system has changed drastically over time, and although the assimilation system can resolve data holes, the initially much sparser networks will lead to less accurate estimates. For this reason, EAC4 is only available from 2003 onwards.\nThe analysis procedure assimilates data in a window of 12 hours using the 4D-Var assimilation method, which takes account of the exact timing of the observations and model evolution within the assimilation window.\nThese data are available in 3-hourly resolution, worldwide. Monthly means can be accessed here.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Product type: Reanalysis",
+            "Temporal coverage: Past",
+            "Variable domain: Atmosphere (composition)",
+            "Spatial coverage: Global",
+            "Variable domain: Atmosphere (meteorology)",
+            "Parameter family: Greenhouse gas"
+        ],
+        "license": "CC-BY-4.0",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2020-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-ghg-reanalysis-egg4"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/x6eCzJjkEQzbQCZ_njqF9y4KLs0=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png"
+            }
+        },
+        "published": "2021-04-23T00:00:00Z",
+        "updated": "2021-04-23T00:00:00Z",
+        "sci:doi": "10.24381/cda4ed31",
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-10-25T01:44:27.852615+00:00"
+        },
+        "cads:fair": 88,
+        "cads:message": null,
+        "cads:update_frequency": "Irregular"
     },
     {
         "type": "Collection",
@@ -649,87 +729,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:21:19.279532+00:00"
-        },
-        "cads:fair": 88,
-        "cads:message": null,
-        "cads:update_frequency": "Irregular"
-    },
-    {
-        "type": "Collection",
-        "id": "cams-global-ghg-reanalysis-egg4",
-        "stac_version": "1.1.0",
-        "title": "CAMS global greenhouse gas reanalysis (EGG4)",
-        "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset the CO2 fluxes from terrestrial vegetation are modelled in order to simulate the variability across a wide range of scales from diurnal to inter-annual. The CH4 chemical loss is represented by a climatological loss rate and the emissions at the surface are taken from a range of datasets.\nReanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of physics and chemistry. This principle, called data assimilation, is based on the method used by numerical weather prediction centres and air quality forecasting centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way to allow for the provision of a dataset spanning back more than a decade. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product.\nThe assimilation system is able to estimate biases between observations and to sift good-quality data from poor data. The atmosphere model allows for estimates at locations where data coverage is low or for atmospheric pollutants for which no direct observations are available. The provision of estimates at each grid point around the globe for each regular output time, over a long period, always using the same format, makes reanalysis a very convenient and popular dataset to work with.\nThe observing system has changed drastically over time, and although the assimilation system can resolve data holes, the initially much sparser networks will lead to less accurate estimates. For this reason, EAC4 is only available from 2003 onwards.\nThe analysis procedure assimilates data in a window of 12 hours using the 4D-Var assimilation method, which takes account of the exact timing of the observations and model evolution within the assimilation window.\nThese data are available in 3-hourly resolution, worldwide. Monthly means can be accessed here.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Product type: Reanalysis",
-            "Temporal coverage: Past",
-            "Variable domain: Atmosphere (composition)",
-            "Spatial coverage: Global",
-            "Variable domain: Atmosphere (meteorology)",
-            "Parameter family: Greenhouse gas"
-        ],
-        "license": "CC-BY-4.0",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2020-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-ghg-reanalysis-egg4"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/x6eCzJjkEQzbQCZ_njqF9y4KLs0=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png"
-            }
-        },
-        "published": "2021-04-23T00:00:00Z",
-        "updated": "2021-04-23T00:00:00Z",
-        "sci:doi": "10.24381/cda4ed31",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-10-18T01:21:29.747942+00:00"
+            "timestamp": "2026-10-25T01:44:22.356609+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -775,7 +775,7 @@
                 "interval": [
                     [
                         "2015-01-01T00:00:00Z",
-                        "2026-10-17T00:00:00Z"
+                        "2026-10-24T00:00:00Z"
                     ]
                 ]
             }
@@ -813,87 +813,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:21:34.345096+00:00"
-        },
-        "cads:fair": 88,
-        "cads:message": null,
-        "cads:update_frequency": null
-    },
-    {
-        "type": "Collection",
-        "id": "cams-global-radiative-forcing-auxilliary-variables",
-        "stac_version": "1.1.0",
-        "title": "CAMS global radiative forcing - auxilliary variables",
-        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2017-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
-            }
-        },
-        "published": "2021-02-17T00:00:00Z",
-        "updated": "2021-02-17T00:00:00Z",
-        "sci:doi": "10.24381/a75a8824",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-10-18T01:22:02.866256+00:00"
+            "timestamp": "2026-10-25T01:44:33.330421+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -976,7 +896,87 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:22:00.258348+00:00"
+            "timestamp": "2026-10-25T01:43:36.559926+00:00"
+        },
+        "cads:fair": 88,
+        "cads:message": null,
+        "cads:update_frequency": null
+    },
+    {
+        "type": "Collection",
+        "id": "cams-global-radiative-forcing-auxilliary-variables",
+        "stac_version": "1.1.0",
+        "title": "CAMS global radiative forcing - auxilliary variables",
+        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2017-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
+            }
+        },
+        "published": "2021-02-17T00:00:00Z",
+        "updated": "2021-02-17T00:00:00Z",
+        "sci:doi": "10.24381/a75a8824",
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-10-25T01:44:06.418488+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -1056,7 +1056,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:21:43.169068+00:00"
+            "timestamp": "2026-10-25T01:44:28.237244+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,
@@ -1100,8 +1100,8 @@
             "temporal": {
                 "interval": [
                     [
-                        "2023-10-12T00:00:00Z",
-                        "2026-10-18T00:00:00Z"
+                        "2023-10-19T00:00:00Z",
+                        "2026-10-25T00:00:00Z"
                     ]
                 ]
             }
@@ -1139,10 +1139,19 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "down",
-            "timestamp": "2026-10-18T01:27:38.365832+00:00"
+            "timestamp": "2026-10-25T01:59:57.698362+00:00"
         },
         "cads:fair": 88,
-        "cads:message": null,
+        "cads:message": {
+            "id": "contents/cams/2026-10-23-warning-cams-europe-air-quality-forecasts.md",
+            "date": "2026-10-23T17:00:00Z",
+            "summary": null,
+            "url": null,
+            "severity": "warning",
+            "content": "This dataset is currently experiencing an issue that is preventing access to some fields which are more than a few days old. We are working to rectify the problem and hope to have it fixed within a few days. We apologise for any inconvenience.",
+            "live": true,
+            "show_date": true
+        },
         "cads:update_frequency": null
     },
     {
@@ -1181,7 +1190,7 @@
                 "interval": [
                     [
                         "2004-01-01T00:00:00Z",
-                        "2026-10-17T00:00:00Z"
+                        "2026-10-24T00:00:00Z"
                     ]
                 ]
             }
@@ -1219,7 +1228,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:20:55.319725+00:00"
+            "timestamp": "2026-10-25T01:44:12.049867+00:00"
         },
         "cads:fair": 92,
         "cads:message": null,
@@ -1300,7 +1309,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:21:52.882467+00:00"
+            "timestamp": "2026-10-25T01:44:11.943606+00:00"
         },
         "cads:fair": 88,
         "cads:message": null,

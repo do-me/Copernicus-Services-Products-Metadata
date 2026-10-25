@@ -34,7 +34,7 @@
                 "interval": [
                     [
                         "1979-01-01T00:00:00Z",
-                        "2026-10-14T00:00:00Z"
+                        "2026-10-21T00:00:00Z"
                     ]
                 ]
             }
@@ -67,12 +67,12 @@
             }
         },
         "published": "2019-11-05T00:00:00Z",
-        "updated": "2026-10-17T00:00:00Z",
+        "updated": "2026-10-24T00:00:00Z",
         "sci:doi": "10.24381/cds.a4fdd6b9",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "down",
-            "timestamp": "2026-10-18T01:15:11.808349+00:00"
+            "timestamp": "2026-10-25T01:15:13.047072+00:00"
         },
         "cads:update_frequency": "Daily",
         "cads:fair": 84
@@ -112,7 +112,7 @@
                 "interval": [
                     [
                         "1991-01-01T00:00:00Z",
-                        "2026-10-14T00:00:00Z"
+                        "2026-10-21T00:00:00Z"
                     ]
                 ]
             }
@@ -145,12 +145,12 @@
             }
         },
         "published": "2019-05-09T00:00:00Z",
-        "updated": "2026-10-17T00:00:00Z",
+        "updated": "2026-10-24T00:00:00Z",
         "sci:doi": "10.24381/cds.e3458969",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:31:38.649139+00:00"
+            "timestamp": "2026-10-25T01:18:07.748301+00:00"
         },
         "cads:update_frequency": "Daily",
         "cads:fair": 84
@@ -190,7 +190,7 @@
                 "interval": [
                     [
                         "1940-01-03T00:00:00Z",
-                        "2026-10-15T00:00:00Z"
+                        "2026-10-22T00:00:00Z"
                     ]
                 ]
             }
@@ -223,12 +223,12 @@
             }
         },
         "published": "2019-09-30T00:00:00Z",
-        "updated": "2026-10-17T00:00:00Z",
+        "updated": "2026-10-24T00:00:00Z",
         "sci:doi": "10.24381/cds.0e89c522",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:18:08.786435+00:00"
+            "timestamp": "2026-10-25T01:18:04.288968+00:00"
         },
         "cads:update_frequency": "Daily",
         "cads:fair": 92
@@ -268,7 +268,7 @@
                 "interval": [
                     [
                         "2019-11-05T00:00:00Z",
-                        "2026-10-17T00:00:00Z"
+                        "2026-10-24T00:00:00Z"
                     ]
                 ]
             }
@@ -301,12 +301,12 @@
             }
         },
         "published": "2020-05-19T00:00:00Z",
-        "updated": "2026-10-17T00:00:00Z",
+        "updated": "2026-10-24T00:00:00Z",
         "sci:doi": "10.24381/cds.ff1aef77",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:16:16.779394+00:00"
+            "timestamp": "2026-10-25T01:16:29.625211+00:00"
         },
         "cads:update_frequency": "Daily",
         "cads:fair": 84
@@ -346,7 +346,7 @@
                 "interval": [
                     [
                         "2018-10-11T00:00:00Z",
-                        "2026-09-14T00:00:00Z"
+                        "2026-09-21T00:00:00Z"
                     ]
                 ]
             }
@@ -379,12 +379,12 @@
             }
         },
         "published": "2019-05-09T00:00:00Z",
-        "updated": "2026-10-14T00:00:00Z",
+        "updated": "2026-10-21T00:00:00Z",
         "sci:doi": "10.24381/cds.9f696a7a",
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:33:40.266020+00:00"
+            "timestamp": "2026-10-25T01:19:21.566956+00:00"
         },
         "cads:update_frequency": "Weekly",
         "cads:fair": 84
@@ -462,7 +462,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:31:37.039392+00:00"
+            "timestamp": "2026-10-25T01:35:00.354914+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 84
@@ -540,7 +540,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:21:41.607963+00:00"
+            "timestamp": "2026-10-25T01:22:28.958840+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 84
@@ -618,88 +618,10 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:17:20.508868+00:00"
+            "timestamp": "2026-10-25T01:28:40.853113+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 92
-    },
-    {
-        "type": "Collection",
-        "id": "cems-glofas-reforecast",
-        "stac_version": "1.1.0",
-        "title": "Reforecasts of river discharge and related data by the Global Flood Awareness System",
-        "description": "This dataset provides a gridded modelled time series of river discharge, forced with medium- to sub-seasonal range meteorological reforecasts. The data is a consistent representation of a key hydrological variable across the global domain, and is a product of the Global Flood Awareness System (GloFAS). It is accompanied by an ancillary file for interpretation that provides the upstream area (see the related variables table and associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with input from the European Centre for Medium-range Weather Forecasts (ECMWF) 11-member ensemble ECMWF-ENS reforecasts. Reforecasts are forecasts run over past dates, and those presented here are used for providing a suitably long time period against which the skill of the 30-day real-time operational forecast can be assessed. The reforecasts are initialised twice weekly with lead times up to 46 days, at 24-hour steps for 20 years in the recent history. For more specific information on the how the reforecast dataset is produced we refer to the documentation.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are the operational forecasts, historical simulations that can be used to derive the hydrological climatology, and seasonal forecasts and reforecasts for users looking for long term forecasts. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Provider: Copernicus CEMS",
-            "Variable domain: Land (hydrology)",
-            "Product type: Reforecasts"
-        ],
-        "license": "other",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -70,
-                        360,
-                        70
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "1999-01-03T00:00:00Z",
-                        "2023-11-25T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-reforecast"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-reforecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/FdMcuIlqZkXrhhngueNIO44Rbfo=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-reforecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png"
-            }
-        },
-        "published": "2020-12-09T00:00:00Z",
-        "updated": "2025-04-02T00:00:00Z",
-        "sci:doi": "10.24381/cds.2d78664e",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-10-18T01:28:13.273570+00:00"
-        },
-        "cads:update_frequency": "Weekly",
-        "cads:fair": 84
     },
     {
         "type": "Collection",
@@ -774,9 +696,87 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:22:41.169985+00:00"
+            "timestamp": "2026-10-25T01:43:05.309140+00:00"
         },
         "cads:update_frequency": "Monthly",
+        "cads:fair": 84
+    },
+    {
+        "type": "Collection",
+        "id": "cems-glofas-reforecast",
+        "stac_version": "1.1.0",
+        "title": "Reforecasts of river discharge and related data by the Global Flood Awareness System",
+        "description": "This dataset provides a gridded modelled time series of river discharge, forced with medium- to sub-seasonal range meteorological reforecasts. The data is a consistent representation of a key hydrological variable across the global domain, and is a product of the Global Flood Awareness System (GloFAS). It is accompanied by an ancillary file for interpretation that provides the upstream area (see the related variables table and associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with input from the European Centre for Medium-range Weather Forecasts (ECMWF) 11-member ensemble ECMWF-ENS reforecasts. Reforecasts are forecasts run over past dates, and those presented here are used for providing a suitably long time period against which the skill of the 30-day real-time operational forecast can be assessed. The reforecasts are initialised twice weekly with lead times up to 46 days, at 24-hour steps for 20 years in the recent history. For more specific information on the how the reforecast dataset is produced we refer to the documentation.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are the operational forecasts, historical simulations that can be used to derive the hydrological climatology, and seasonal forecasts and reforecasts for users looking for long term forecasts. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Provider: Copernicus CEMS",
+            "Variable domain: Land (hydrology)",
+            "Product type: Reforecasts"
+        ],
+        "license": "other",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -70,
+                        360,
+                        70
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "1999-01-03T00:00:00Z",
+                        "2023-11-25T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-reforecast"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-reforecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/FdMcuIlqZkXrhhngueNIO44Rbfo=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-reforecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png"
+            }
+        },
+        "published": "2020-12-09T00:00:00Z",
+        "updated": "2025-04-02T00:00:00Z",
+        "sci:doi": "10.24381/cds.2d78664e",
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-10-25T01:44:02.897169+00:00"
+        },
+        "cads:update_frequency": "Weekly",
         "cads:fair": 84
     },
     {
@@ -852,7 +852,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:37:11.920576+00:00"
+            "timestamp": "2026-10-25T01:46:00.298484+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 84
@@ -930,7 +930,7 @@
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-10-18T01:37:31.791026+00:00"
+            "timestamp": "2026-10-25T01:52:21.639177+00:00"
         },
         "cads:update_frequency": "Weekly",
         "cads:fair": 84
